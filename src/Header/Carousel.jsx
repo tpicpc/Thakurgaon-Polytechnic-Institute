@@ -8,7 +8,7 @@ import Nav from "./Nav";
 function Carousel() {
   return (
     <div>
-      <div className="carousel w-full max-h-72 relative">
+      <div className="carousel w-full max-h-64 relative">
         <div id="slide1" className="carousel-item relative w-full">
           <img src={img1} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform opacity-80 -translate-y-1/2 left-5 right-5 top-1/2">

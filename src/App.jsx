@@ -9,12 +9,11 @@ function App() {
   return (
     <>
       <div className='background'>
-        <section className='w-9/12 mx-auto px-1'>
+        <section className='md:w-9/12 mx-auto md:px-1 px-4 '>
         <Header></Header>
         <Carousel></Carousel>
         <HotNews></HotNews>
         </section>
-
       </div>
     </>
   )
