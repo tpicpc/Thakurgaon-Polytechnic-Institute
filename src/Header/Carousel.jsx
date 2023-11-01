@@ -15,10 +15,10 @@ function Carousel() {
             <a href="#slide4" className="text-orange-600">
               ❮
             </a>
+            <Data></Data>
             <a href="#slide2" className="text-orange-600">
               ❯
             </a>
-            <Data></Data>
           </div>
         </div>
         <div id="slide2" className="carousel-item relative w-full">
@@ -27,10 +27,11 @@ function Carousel() {
             <a href="#slide1" className="text-orange-600">
               ❮
             </a>
+            <Data></Data>
             <a href="#slide3" className="text-orange-600">
               ❯
             </a>
-            <Data></Data>
+
           </div>
         </div>
         <div id="slide3" className="carousel-item relative w-full">
@@ -39,10 +40,10 @@ function Carousel() {
             <a href="#slide2" className="text-orange-600">
               ❮
             </a>
+            <Data></Data>
             <a href="#slide4" className="text-orange-600">
               ❯
             </a>
-            <Data></Data>
           </div>
         </div>
         <div id="slide4" className="carousel-item relative w-full">
@@ -51,21 +52,23 @@ function Carousel() {
             <a href="#slide3" className="text-orange-600">
               ❮
             </a>
+            <Data></Data>
             <a href="#slide1" className="text-orange-600">
               ❯
             </a>
-            <Data></Data>
+            
           </div>
         </div>
       </div>
       <Nav></Nav>
     </div>
+    
   );
 }
 
 function Data(){
     return(
-        <div className="w-9/12 mx-auto items-center h-40 justify-center absolute bottom-[-60px] left-[50px] flex flex-wrap gap-3">
+        <div className="w-9/12 mx-auto items-center h-40 justify-center flex flex-wrap gap-3">
               <img className="max-w-24 max-h-24" src={gov} alt="GovLogo" />
               <h2 className="text-xl text-center md:text-2xl font-semibold text-slate-100">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট
