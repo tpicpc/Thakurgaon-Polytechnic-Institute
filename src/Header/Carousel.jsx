@@ -11,7 +11,7 @@ function Carousel() {
       <div className="carousel w-full max-h-72 relative">
         <div id="slide1" className="carousel-item relative w-full">
           <img src={img1} className="w-full opacity-90" />
-          <div className="absolute flex justify-between transform opacity-80 -translate-y-1/2 left-5 right-5 top-1/2">
+          <div className="absolute flex items-center justify-between transform opacity-80 -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="text-orange-600">
               ❮
             </a>
@@ -23,7 +23,7 @@ function Carousel() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img src={img2} className="w-full opacity-90" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="text-orange-600">
               ❮
             </a>
@@ -36,7 +36,7 @@ function Carousel() {
         </div>
         <div id="slide3" className="carousel-item relative w-full">
           <img src={img3} className="w-full opacity-90" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="text-orange-600">
               ❮
             </a>
@@ -48,7 +48,7 @@ function Carousel() {
         </div>
         <div id="slide4" className="carousel-item relative w-full">
           <img src={img4} className="w-full opacity-90" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" className="text-orange-600">
               ❮
             </a>
@@ -70,7 +70,7 @@ function Data(){
     return(
         <div className="w-9/12 mx-auto items-center h-40 justify-center flex flex-wrap gap-3">
               <img className="max-w-24 max-h-24" src={gov} alt="GovLogo" />
-              <h2 className="text-xl text-center md:text-2xl font-semibold text-slate-100">
+              <h2 className="text-xl text-center md:text-2xl font-semibold text-white">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট
               </h2>
             </div>
