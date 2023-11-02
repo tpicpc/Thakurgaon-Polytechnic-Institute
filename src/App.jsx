@@ -8,6 +8,7 @@ import HotNews from './Header/HotNews'
 import MejorPerson from './Body/MejorPerson'
 import OurVision from './Body/OurVision'
 import Introduction from './Body/Introduction'
+import StudentInformation from './Body/StudentInformation'
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
 
           <section className='col-span-1'>
           <MejorPerson></MejorPerson>
+          <StudentInformation></StudentInformation>
+
           </section>
         </section>
       </div>
