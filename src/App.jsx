@@ -7,6 +7,7 @@ import Header from './Header/Header'
 import HotNews from './Header/HotNews'
 import MejorPerson from './Body/MejorPerson'
 import OurVision from './Body/OurVision'
+import Introduction from './Body/Introduction'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
               <Notice></Notice>
               <UpdateNews></UpdateNews>
               <OurVision></OurVision>
+              <Introduction></Introduction>
           </section>
 
           <section className='col-span-1'>
