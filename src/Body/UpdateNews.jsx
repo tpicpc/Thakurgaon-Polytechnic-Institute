@@ -20,8 +20,10 @@ export default function UpdateNews() {
 }
 function UpdateNewsData({news}){
   return(
-    <div className="flex justify-between mb-10 px-2">
+    <div className="flex flex-wrap w-auto justify-between mb-10 px-2">
+        <div className="flex flex-wrap w-full">
         <a href="#">আপডেটঃ- {news}</a>
+        </div>
         <button className="bg-gradient-to-b from-slate-600 to-slate-400 py-[2px] px-2 text-white">পড়ুন</button>
     </div>
   )

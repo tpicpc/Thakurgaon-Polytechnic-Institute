@@ -9,6 +9,7 @@ import MejorPerson from './Body/MejorPerson'
 import OurVision from './Body/OurVision'
 import Introduction from './Body/Introduction'
 import StudentInformation from './Body/StudentInformation'
+import Gallery from './Body/Gallery'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         </section>
 
 
-        <section className='grid grid-cols-4 gap-8 md:w-9/12 mx-auto justify-between'>
+        <section className='md:grid grid-cols-4 gap-8 md:w-9/12 mx-auto justify-between p-5'>
           <section className=' col-span-3 gap-3'>
               <Notice></Notice>
               <UpdateNews></UpdateNews>
@@ -33,6 +34,7 @@ function App() {
           <section className='col-span-1'>
           <MejorPerson></MejorPerson>
           <StudentInformation></StudentInformation>
+          <Gallery></Gallery>
 
           </section>
         </section>
