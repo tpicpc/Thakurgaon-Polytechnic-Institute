@@ -12,11 +12,11 @@ function Carousel() {
         <div id="slide1" className="carousel-item relative w-full">
           <img src={img1} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform opacity-80 -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="text-orange-600">
+            <a href="#slide4" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide2" className="text-orange-600">
+            <a href="#slide2" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
           </div>
@@ -24,11 +24,11 @@ function Carousel() {
         <div id="slide2" className="carousel-item relative w-full">
           <img src={img2} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="text-orange-600">
+            <a href="#slide1" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide3" className="text-orange-600">
+            <a href="#slide3" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
 
@@ -37,11 +37,11 @@ function Carousel() {
         <div id="slide3" className="carousel-item relative w-full">
           <img src={img3} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="text-orange-600">
+            <a href="#slide2" className="text-orange-700 text-[12px] hover:text-orange-500 ">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide4" className="text-orange-600">
+            <a href="#slide4" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
           </div>
@@ -49,11 +49,11 @@ function Carousel() {
         <div id="slide4" className="carousel-item relative w-full">
           <img src={img4} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="text-orange-600">
+            <a href="#slide3" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide1" className="text-orange-600">
+            <a href="#slide1" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
             

@@ -1,7 +1,7 @@
-import carousel1 from "../../img/gallary01.jpg";
-import carousel2 from "../../img/gallary02.jpg";
-import carousel3 from "../../img/gallary03.jpg";
-import carousel4 from "../../img/gallary04.jpg";
+import carousel1 from "../../../img/gallary01.jpg";
+import carousel2 from "../../../img/gallary02.jpg";
+import carousel3 from "../../../img/gallary03.jpg";
+import carousel4 from "../../../img/gallary04.jpg";
 
 export default function Gallery() {
   return (
