@@ -8,7 +8,7 @@
   background-size: 100%;
 
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .background {
     background: none;
   }
@@ -36,3 +36,4 @@
     transform: translateY(-100%);
   }
 }
+

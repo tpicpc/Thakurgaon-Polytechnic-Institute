@@ -37,11 +37,11 @@ function Carousel() {
         <div id="slide3" className="carousel-item relative w-full">
           <img src={img3} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="text-orange-700 text-[12px] hover:text-orange-500 ">
+            <a href="#slide2" className="text-orange-700 hover:text-orange-500 ">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide4" className="text-orange-700 text-[12px] hover:text-orange-500">
+            <a href="#slide4" className="text-orange-700 hover:text-orange-500">
               ❯
             </a>
           </div>
@@ -49,11 +49,11 @@ function Carousel() {
         <div id="slide4" className="carousel-item relative w-full">
           <img src={img4} className="w-full opacity-90" />
           <div className="absolute flex items-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="text-orange-700 text-[12px] hover:text-orange-500">
+            <a href="#slide3" className="text-orange-700 hover:text-orange-500">
               ❮
             </a>
             <Data></Data>
-            <a href="#slide1" className="text-orange-700 text-[12px] hover:text-orange-500">
+            <a href="#slide1" className="text-orange-700 hover:text-orange-500">
               ❯
             </a>
             
@@ -68,7 +68,7 @@ function Carousel() {
 
 function Data(){
     return(
-        <div className="w-9/12 mx-auto items-center h-40 justify-center flex flex-wrap gap-3">
+        <div className="w-9/12 mx-auto items-center h-40 justify-start flex flex-wrap gap-3">
               <img className="max-w-24 max-h-24" src={gov} alt="GovLogo" />
               <h2 className="text-xl text-center md:text-2xl font-semibold text-white">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট

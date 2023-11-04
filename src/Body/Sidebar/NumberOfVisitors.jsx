@@ -23,7 +23,7 @@ export default function NumberOfVisitors() {
 function ListItem({data,style,count}){
     return(
         <>
-            <li className="flex justify-between border-b-[1px] border-slate-300 py-3 px-4">
+            <li className="flex flex-wrap justify-between border-b-[1px] border-slate-300 py-3 px-4">
                 <span>{data}</span>
                 <span className={`text-white font-semibold px-3 flex items-center text-[12px] rounded-lg ${style}`}>{count}</span>
             </li>

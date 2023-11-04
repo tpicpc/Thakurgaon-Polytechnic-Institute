@@ -15,20 +15,24 @@ import CentralEServices from './Body/Sidebar/CentralEServices'
 import ImportantLinks from './Body/Sidebar/ImportantLinks'
 import NumberOfVisitors from './Body/Sidebar/NumberOfVisitors'
 import EmergencyHotline from './Body/Sidebar/EmergencyHotline'
+import NationalAnthem from './Body/Sidebar/NationalAnthem'
+import YourIPAddress from './Body/Sidebar/YourIPAddress'
+import FooterImg from './Body/FooterImg'
+import Footer from './Header/Footer'
 
 function App() {
 
   return (
     <>
       <div className='background'>
-        <section className='md:w-9/12 mx-auto md:px-1 px-4 '>
+        <section className='xl:w-9/12 px-5 lg:px-0 lg:w-9/12 mx-auto '>
           <Header></Header>
           <Carousel></Carousel>
           <HotNews></HotNews>
         </section>
 
 
-        <section className='md:grid grid-cols-4 gap-7 md:w-9/12 mx-auto justify-between py-5'>
+        <section className='md:grid px-5 lg:px-0 grid-cols-4 gap-7 w-full lg:w-9/12 xl:w-9/12 mx-auto justify-between py-5'>
           <section className=' col-span-3 gap-3'>
               <Notice></Notice>
               <UpdateNews></UpdateNews>
@@ -45,8 +49,12 @@ function App() {
           <ImportantLinks></ImportantLinks>
           <NumberOfVisitors></NumberOfVisitors>
           <EmergencyHotline></EmergencyHotline>
+          <NationalAnthem></NationalAnthem>
+          <YourIPAddress></YourIPAddress>
           </section>
         </section>
+        <FooterImg></FooterImg>
+        <Footer></Footer>
       </div>
     </>
   )

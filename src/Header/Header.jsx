@@ -12,8 +12,8 @@ export default function Header() {
         </ul>
         </div>
 
-        <div className="flex gap-3">
-            <input className=" outline-sky-500 outline-[1px] border-none rounded px-2 text-sm font-semibold" type="text" placeholder="Search anything..." />
+        <div className="flex flex-wrap gap-3 ">
+            <input className="w-36 md:w-auto outline-sky-500 outline-[1px] border-none rounded px-2 text-sm font-semibold" type="text" placeholder="Search anything..." />
             <button className="flex items-center gap-2 bg-[#008000] px-[8px] py-[2px] rounded-md shadow shadow-[#294d29] hover:shadow-md hover:shadow-[#294d29] text-white font-semibold"><i className='bx bx-search' ></i>Search</button>
         </div>
     </div>
