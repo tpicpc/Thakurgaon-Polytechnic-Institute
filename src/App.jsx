@@ -19,6 +19,7 @@ import NationalAnthem from './Body/Sidebar/NationalAnthem'
 import YourIPAddress from './Body/Sidebar/YourIPAddress'
 import FooterImg from './Body/FooterImg'
 import Footer from './Header/Footer'
+import MainCategories from './Body/AllCatagory/MainCategories'
 
 function App() {
 
@@ -32,12 +33,13 @@ function App() {
         </section>
 
 
-        <section className='md:grid px-5 lg:px-0 grid-cols-4 gap-7 w-full lg:w-9/12 xl:w-9/12 mx-auto justify-between py-5'>
+        <section className='lg:grid px-5 lg:px-0 grid-cols-4 gap-7 w-full lg:w-9/12 xl:w-9/12 mx-auto justify-between py-5'>
           <section className=' col-span-3 gap-3'>
               <Notice></Notice>
               <UpdateNews></UpdateNews>
               <OurVision></OurVision>
               <Introduction></Introduction>
+              <MainCategories></MainCategories>
           </section>
           {/* sidebar section */}
           <section className='col-span-1'>

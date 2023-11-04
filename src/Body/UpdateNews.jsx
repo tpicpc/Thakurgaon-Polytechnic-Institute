@@ -20,7 +20,7 @@ export default function UpdateNews() {
 }
 function UpdateNewsData({news}){
   return(
-    <div className="flex flex-wrap w-auto justify-between mb-10 px-2">
+    <div className="flex flex-wrap md:flex-nowrap w-auto justify-between mb-10 px-2">
         <div className="flex flex-wrap w-full">
         <a href="#">আপডেটঃ- {news}</a>
         </div>
