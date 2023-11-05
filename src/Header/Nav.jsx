@@ -23,6 +23,9 @@ export default function Nav() {
                 <li><a>Homepage</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a>About</a></li>
+                <li><a>About</a></li>
+                <li><a>About</a></li>
+                <li><a>About</a></li>
             </ul>
         </div>
     </div>
