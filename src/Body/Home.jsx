@@ -7,11 +7,11 @@ import UpdateNews from "./UpdateNews";
 export default function Home() {
   return (
     <div>
-         <Notice></Notice>
-              <UpdateNews></UpdateNews>
-              <OurVision></OurVision>
-              <Introduction></Introduction>
-              <MainCategories></MainCategories>
+            <Notice></Notice>
+            <UpdateNews></UpdateNews>
+            <OurVision></OurVision>
+            <Introduction></Introduction>
+            <MainCategories></MainCategories>
     </div>
   )
 }
