@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <div className='background'>
-        <section className='xl:w-9/12 px-5 lg:px-0 lg:w-9/12 mx-auto '>
+        <section className='xl:w-9/12 px-5 lg:px-0 lg:w-full mx-auto '>
           <Header></Header>
           <Carousel></Carousel>
           <HotNews></HotNews>

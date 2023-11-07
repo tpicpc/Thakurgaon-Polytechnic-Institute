@@ -15,29 +15,22 @@
 }
 
 
-.marquee-container {
-  width: 100%;
-  overflow: hidden;
-  height: 20px;
-}
-
 .marquee-content {
-  white-space: nowrap;
-  animation: scroll 10s linear infinite; /* Adjust speed by changing the time (10s in this example) */
-  padding: 3px;
-  margin: 0;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  animation: marqueeScroll 15s linear infinite;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateY(-0%);
-  }
-  5% {
-    transform: translateY(0%);
-  }
-  
-  100% {
-    transform: translateY(-100%);
-  }
+/* Add animation to pause the marquee content on hover */
+.marquee-content:hover {
+  animation-play-state: paused;
 }
+
+/* Define the scrolling animation */
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateY(-100%); }
+}
+
 
