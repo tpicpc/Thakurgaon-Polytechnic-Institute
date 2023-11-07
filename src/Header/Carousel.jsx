@@ -73,7 +73,7 @@ function Data(){
               <h2 className="text-xl text-center md:text-2xl font-semibold text-white">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট
               </h2>
-            </div>
+        </div>
     )
 }
 

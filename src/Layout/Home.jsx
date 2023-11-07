@@ -1,8 +1,8 @@
-import MainCategories from "./MainCategories";
-import Introduction from "../Introduction";
-import Notice from "../Notice";
-import OurVision from "../OurVision";
-import UpdateNews from "../UpdateNews";
+import MainCategories from "../Body/AllCatagory/MainCategories";
+import Introduction from "../Body/Introduction";
+import Notice from "../Body/Notice";
+import OurVision from "../Body/OurVision";
+import UpdateNews from "../Body/UpdateNews";
 
 export default function Home() {
   return (

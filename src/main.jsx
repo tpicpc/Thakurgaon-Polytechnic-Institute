@@ -12,7 +12,7 @@ import Layuot from './Layout/Layuot.jsx';
 import Introduction from './Body/Introduction.jsx';
 import Notice from './Body/Notice.jsx';
 import UpdateNews from './Body/UpdateNews.jsx';
-import Home from './Body/AllCatagory/Home.jsx';
+import Home from './Layout/Home.jsx';
 
 const router = createBrowserRouter([
   {
