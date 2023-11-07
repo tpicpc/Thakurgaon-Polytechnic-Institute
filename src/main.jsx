@@ -36,6 +36,10 @@ const router = createBrowserRouter([
       {
         path:"/FocalPerson",
         element: <FocalPerson></FocalPerson>
+      },
+      {
+        path:"/Notice",
+        element: <Notice></Notice>
       }
     ]
   },
