@@ -17,7 +17,7 @@ export default function Nav() {
 
                     </li>
                     
-                    <li><Link className="py-[11px] text-purple-500 w-full h-full px-3 hover:bg-purple-500 hover:text-white">ফোকাল ব্যক্তি ▾</Link></li>
+                    <li><Link to={"/FocalPerson"} className="py-[11px] text-purple-500 w-full h-full px-3 hover:bg-purple-500 hover:text-white">ফোকাল ব্যক্তি ▾</Link></li>
                         
                     <li><Link className=" py-[11px] text-cyan-500 w-full h-full px-3 hover:bg-cyan-500 hover:text-white">সু্যোগ - সুবিধা </Link></li>
                         

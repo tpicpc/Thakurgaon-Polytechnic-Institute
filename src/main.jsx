@@ -14,6 +14,7 @@ import Notice from './Body/Notice.jsx';
 import UpdateNews from './Body/UpdateNews.jsx';
 import Home from './Layout/Home.jsx';
 import OurVision from './Body/OurVision.jsx';
+import FocalPerson from './Layout/FocalPerson.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:"/OurVision",
         element: <OurVision></OurVision>
+      },
+      {
+        path:"/FocalPerson",
+        element: <FocalPerson></FocalPerson>
       }
     ]
   },
