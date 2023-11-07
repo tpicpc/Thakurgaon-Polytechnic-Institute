@@ -68,9 +68,9 @@ function Carousel() {
 
 function Data(){
     return(
-        <div className="w-9/12 mx-auto items-center h-40 justify-start flex flex-wrap gap-3">
-              <img className="max-w-24 max-h-24" src={gov} alt="GovLogo" />
-              <h2 className="text-xl text-center md:text-2xl font-semibold text-white">
+        <div className="w-9/12 mx-auto items-center justify-center h-40 md:justify-start flex flex-wrap gap-3">
+              <img className="max-w-24 max-h-24 " src={gov} alt="GovLogo" />
+              <h2 className="text-[16px] text-center md:text-2xl font-semibold text-white">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট
               </h2>
         </div>

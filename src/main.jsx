@@ -13,6 +13,7 @@ import Introduction from './Body/Introduction.jsx';
 import Notice from './Body/Notice.jsx';
 import UpdateNews from './Body/UpdateNews.jsx';
 import Home from './Layout/Home.jsx';
+import OurVision from './Body/OurVision.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,8 +25,12 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path:"/log",
+        path:"/Introduction",
         element: <Introduction></Introduction>
+      },
+      {
+        path:"/OurVision",
+        element: <OurVision></OurVision>
       }
     ]
   },
