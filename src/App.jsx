@@ -19,7 +19,7 @@ import NationalAnthem from './Body/Sidebar/NationalAnthem'
 import YourIPAddress from './Body/Sidebar/YourIPAddress'
 import FooterImg from './Body/FooterImg'
 import Footer from './Header/Footer'
-import MainCategories from './Body/AllCatagory/MainCategories'
+import MainCategories from './Layout/MainCategories'
 
 function App() {
 

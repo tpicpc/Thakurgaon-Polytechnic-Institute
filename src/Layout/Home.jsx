@@ -1,4 +1,4 @@
-import MainCategories from "../Body/AllCatagory/MainCategories";
+import MainCategories from "./MainCategories";
 import Introduction from "../Body/Introduction";
 import Notice from "../Body/Notice";
 import OurVision from "../Body/OurVision";

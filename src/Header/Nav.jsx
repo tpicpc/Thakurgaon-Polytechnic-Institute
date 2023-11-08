@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import DropDown from "./DropDown";
+import Navbar from "./DropDown";
 
 export default function Nav() {
   return (
@@ -19,15 +20,13 @@ export default function Nav() {
                     
                     <li><Link to={"/FocalPerson"} className="py-[11px] text-purple-500 w-full h-full px-3 hover:bg-purple-500 hover:text-white">ফোকাল ব্যক্তি </Link></li>
                         
-                    <li><Link className=" py-[11px] text-cyan-500 w-full h-full px-3 hover:bg-cyan-500 hover:text-white">সু্যোগ - সুবিধা </Link></li>
+                    <li><Link to={"/Facilities"} className=" py-[11px] text-cyan-500 w-full h-full px-3 hover:bg-cyan-500 hover:text-white">সু্যোগ - সুবিধা </Link></li>
                         
-                    <li><Link className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D]  hover:text-white">নোটিশ</Link></li>
+                    <li><Link to={"/Notice"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D]  hover:text-white">নোটিশ</Link></li>
                         
-                    <li><Link className="text-[#098346] py-[11px] w-full h-full px-3 hover:bg-[#098346] hover:text-white">বার্তা</Link></li>
+                    <li><Link to={"/ContactPage"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D] hover:text-white">যোগাযোগ</Link></li>
                         
-                    <li><Link className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D] hover:text-white">যোগাযোগ</Link></li>
-                        
-                    <li><Link className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল ▾</Link></li>
+                    <li><Link to={"/Result"} className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল</Link></li>
                     </div>
             </div>
         </ul>

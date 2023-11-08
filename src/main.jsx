@@ -15,6 +15,10 @@ import UpdateNews from './Body/UpdateNews.jsx';
 import Home from './Layout/Home.jsx';
 import OurVision from './Body/OurVision.jsx';
 import FocalPerson from './Layout/FocalPerson.jsx';
+import MainCategories from './Layout/MainCategories.jsx';
+import AllNotice from './Layout/AllNotice.jsx';
+import ContactPage from './Layout/ContactPage.jsx';
+import Result from './Layout/Result.jsx';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +44,23 @@ const router = createBrowserRouter([
       {
         path:"/Notice",
         element: <Notice></Notice>
-      }
+      },
+      {
+        path:"/Facilities",
+        element: <MainCategories></MainCategories>
+      },
+      {
+        path:"/AllNotice",
+        element: <AllNotice></AllNotice>
+      },
+      {
+        path:"/ContactPage",
+        element: <ContactPage></ContactPage>
+      },
+      {
+        path:"/Result",
+        element: <Result></Result>
+      },
     ]
   },
 ]);

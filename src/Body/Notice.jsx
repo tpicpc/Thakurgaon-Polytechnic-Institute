@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import noticelogo from "../../img/bg-notice-board.png"
 export default function Notice() {
   return (
@@ -15,7 +16,7 @@ export default function Notice() {
             
             <ListItem notice="SQL Injection Testing,Not For Any BAD PURPOSE." link="#"></ListItem>
 
-            <li className="text-right pt-5 "><a href="#"> <span><u>সকল</u></span></a></li>
+            <li className="text-right pt-5 "> <Link to={"/AllNotice"}><span><u>সকল</u></span></Link></li>
             
         </ul>
     </div>

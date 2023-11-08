@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import MainCategories from "../Body/AllCatagory/MainCategories";
+import MainCategories from "./MainCategories";
 import FooterImg from "../Body/FooterImg";
 import Introduction from "../Body/Introduction";
 import Notice from "../Body/Notice";
