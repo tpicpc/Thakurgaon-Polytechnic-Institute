@@ -8,7 +8,7 @@ export default function Result() {
     <div>
         <table className="border-collapse border border-slate-400 text-[13px]">
             <tr>
-                <th className={`${style}`}>প্রকাশের তারিখ</th>
+                <th className={`${style}`}>ফলাফল প্রকাশের তারিখ</th>
                 <th className={`${style}`}>শিরোনাম</th>
             </tr>
 

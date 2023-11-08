@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function UpdateNews() {
   return (
@@ -23,7 +24,7 @@ function UpdateNewsData({news}){
         <div className="flex flex-wrap w-full">
         <a href="#">আপডেটঃ- {news}</a>
         </div>
-        <button className="bg-gradient-to-b from-slate-600 to-slate-400 py-[2px] px-2 text-white">পড়ুন</button>
+        <button className="bg-gradient-to-b from-slate-600 to-slate-400 py-[2px] px-2 text-white"><Link to={"/AllNotice"}>পড়ুন</Link></button>
     </div>
   )
 }

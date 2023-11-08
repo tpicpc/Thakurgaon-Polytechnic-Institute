@@ -23,6 +23,7 @@ function ContactPage() {
 
   return (
     <>
+    <HeroSection></HeroSection>
       <div className="container mx-auto p-4 border-[1px] border-slate-300 rounded-lg shadow-md shadow-[#1D8219] mb-5">
       <h1 className="text-2xl font-semibold mb-4">Contact Us</h1>
       <form onSubmit={handleSubmit}>
@@ -76,7 +77,7 @@ function ContactPage() {
         </button>
       </form>
     </div>
-    <HeroSection></HeroSection>
+    
     </>
 
     
