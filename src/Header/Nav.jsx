@@ -27,6 +27,9 @@ export default function Nav() {
                     <li><Link to={"/ContactPage"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D] hover:text-white">যোগাযোগ</Link></li>
                         
                     <li><Link to={"/Result"} className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল</Link></li>
+
+                    <li><Link to={"/Technolodgy"} className="text-green-600 py-[11px] w-full h-full px-3 hover:bg-green-600 hover:text-white">টেকনোলজি</Link></li>
+
                     </div>
             </div>
         </ul>

@@ -19,6 +19,7 @@ import MainCategories from './Layout/MainCategories.jsx';
 import AllNotice from './Layout/AllNotice.jsx';
 import ContactPage from './Layout/ContactPage.jsx';
 import Result from './Layout/Result.jsx';
+import Technolodgy from './Layout/technolodgy.jsx';
 
 const router = createBrowserRouter([
   {
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path:"/Result",
         element: <Result></Result>
+      },
+      {
+        path:"/Technolodgy",
+        element: <Technolodgy></Technolodgy>
       },
     ]
   },
