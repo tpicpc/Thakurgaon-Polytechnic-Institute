@@ -8,9 +8,9 @@ export default function DropDowndata() {
                     <li className="border-b-[2px] border-[#1B8119]  py-3">
                     <details>
                         <summary className="text-red-500  w-full h-full">TPI সম্পর্কে</summary>
-                        <ul className="w-full h-full">
-                            <li><Link to={"/Introduction"} className="text-red-500 py-3">পরিচিতি</Link></li>
-                            <li><Link to={"/OurVision"} className="text-red-500 py-3">আমাদের লক্ষ্য ও উদ্দেশ্য</Link></li>
+                        <ul className="">
+                            <li className="border-y-[1px] border-slate-300 flex items-center py-3"><Link to={"/Introduction"} className="text-red-500 w-full h-full px-3">পরিচিতি</Link></li>
+                            <li className="flex items-center py-3"><Link to={"/OurVision"} className="text-red-500 w-full h-full px-3">আমাদের লক্ষ্য ও উদ্দেশ্য</Link></li>
                         </ul>
                     </details>
                     </li>
