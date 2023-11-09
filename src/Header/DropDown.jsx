@@ -1,24 +1,17 @@
 import React, { useState } from 'react';
 
-function Dropdown() {
-  const [isOpen, setIsOpen] = useState(false);
-
+function Dropdown({setIsOpen,isOpen}) {
+  // const [isOpen, setIsOpen] = useState(false);
+const name='sajal'
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <div className="dropdown">
-      <button className="dropdown-button" onClick={toggleDropdown}>
+    <div className="dropdown block md:hidden">
+      <button className="dropdown-button px-2 py-1 rounded-lg mr-3 bg-[#8AD024] text-white text-xl" onClick={toggleDropdown}>
         {isOpen ?<i className='bx bx-x' ></i> :  <i className='bx bx-menu'></i>}
       </button>
-      {isOpen && (
-        <ul className="dropdown-menu absolute w-56 h-56 bg-slate-300 block -right-[2px] top-9">
-          <li>Menu Item 1</li>
-          <li>Menu Item 2</li>
-          <li>Menu Item 3</li>
-        </ul>
-      )}
     </div>
   );
 }

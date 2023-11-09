@@ -19,18 +19,32 @@ import Carousel from "../Header/Carousel";
 import Footer from "../Header/Footer";
 import Header from "../Header/Header";
 import HotNews from "../Header/HotNews";
+import { useState } from "react";
+import DropDowndata from "../Header/DropDowndata";
 
 export default function Layuot ()  {
+  const [isOpen,setIsOpen]=useState(false)
     return (
         <div className='background'>
-        <section className='xl:w-9/12 px-5 lg:px-0 lg:w-9/12 mx-auto '>
+        <section className='xl:w-9/12 px-5 lg:px-0 lg:w-9/12 md:w-full mx-auto  '>
           <Header></Header>
-          <Carousel></Carousel>
-          <HotNews></HotNews>
+          <Carousel setIsOpen={setIsOpen} isOpen={isOpen}></Carousel>
+          {/* this code for dropdown menu bar */}
+          <div className={`${isOpen ? " block duration-700 transition-all" : "hidden duration-0"}`}>
+              <ul className={` duration-700 dropdown-menu h-auto flex flex-col px-2 py-4 bg-slate-300 bg-opacity-30 shadow-lg md:w-[165vh] text-center `}>
+                <DropDowndata></DropDowndata>
+              </ul>
+          </div>
+          {/* dropdown menu bar end hear */}
         </section>
 
 
-        <section className='lg:grid px-5 lg:px-0 grid-cols-4 gap-7 w-full lg:w-9/12 xl:w-9/12 mx-auto justify-between py-5'>
+        <div className={`${isOpen ? "mt-50 duration-700" :""} w-full `}>
+          <div className="xl:w-9/12 px-5 lg:px-0 lg:w-9/12 mx-auto ">
+
+        <HotNews></HotNews>
+          </div>
+        <section className={`lg:grid px-5 lg:px-0 grid-cols-4 gap-7 w-full lg:w-9/12 xl:w-9/12 mx-auto justify-between py-5`}>
           <section className=' col-span-3 gap-3'>
               {/* <Notice></Notice>
               <UpdateNews></UpdateNews>
@@ -55,6 +69,7 @@ export default function Layuot ()  {
           <YourIPAddress></YourIPAddress>
           </section>
         </section>
+        </div>
         <FooterImg></FooterImg>
         <Footer></Footer>
       </div>
