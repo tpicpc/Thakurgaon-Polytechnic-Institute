@@ -13,7 +13,7 @@ function Dropdown() {
         {isOpen ?<i className='bx bx-x' ></i> :  <i className='bx bx-menu'></i>}
       </button>
       {isOpen && (
-        <ul className="dropdown-menu  bg-slate-300 w-full">
+        <ul className="dropdown-menu absolute w-56 h-56 bg-slate-300 block -right-[2px] top-9">
           <li>Menu Item 1</li>
           <li>Menu Item 2</li>
           <li>Menu Item 3</li>

@@ -4,7 +4,8 @@ import Navbar from "./DropDown";
 
 export default function Nav() {
   return (
-    <div className="w-full flex items-center justify-between h-auto shadow-md -mt-[6px] shadow-slate-300 px-3 py-1">
+    <>
+        <div className="w-full flex items-center justify-between h-auto shadow-md -mt-[6px] shadow-slate-300 px-3 py-1">
         <ul className="flex items-center lg:text-sm xl:text-base">
             <li className="px-2"><Link to={"/"}> <i className='bx bx-home-alt text-3xl text-orange-500'></i></Link></li>
 
@@ -36,5 +37,7 @@ export default function Nav() {
 
         <DropDown></DropDown>
     </div>
+    
+    </>
   )
 }
