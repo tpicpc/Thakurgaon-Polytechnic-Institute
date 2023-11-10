@@ -12,7 +12,8 @@ export default function AcademicInformation() {
 
                 <li className='flex items-center'><Link to={"/ExamRoutine"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার রুটিন</Link></li>
 
-                <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</a></li>
+                <li className='flex items-center'><Link to={"/DigitalClassContent"}><span className=" text-2xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</Link></li>
+
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>সেমিস্টার প্ল্যান</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>সিলেবাস</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>পরীক্ষার ফলাফল</a></li>

@@ -22,6 +22,7 @@ import Result from './Layout/Result.jsx';
 import Technolodgy from './Layout/technolodgy.jsx';
 import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.jsx';
 import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx';
+import DigitalClassContent from './Body/AllCatagory/AcademicInformation/DigitalClassContent.jsx';
 
 const router = createBrowserRouter([
   {
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
       {
         path:"/ExamRoutine",
         element: <ExamRoutine></ExamRoutine>
+      },
+      {
+        path:"/DigitalClassContent",
+        element: <DigitalClassContent></DigitalClassContent>
       },
     ]
   },
