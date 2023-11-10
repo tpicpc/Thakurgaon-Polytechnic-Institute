@@ -24,6 +24,7 @@ import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.js
 import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx';
 import DigitalClassContent from './Body/AllCatagory/AcademicInformation/DigitalClassContent.jsx';
 import SemesterPlan from './Body/AllCatagory/SemesterPlan.jsx';
+import Syllabus from './Body/AllCatagory/Syllabus.jsx';
 
 const router = createBrowserRouter([
   {
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
       {
         path:"/SemesterPlan",
         element: <SemesterPlan></SemesterPlan>
+      },
+      {
+        path:"/Syllabus",
+        element: <Syllabus></Syllabus>
       },
     ]
   },
