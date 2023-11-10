@@ -17,9 +17,10 @@ export default function AcademicInformation() {
                 <li className='flex items-center'><Link to={"/SemesterPlan"}><span className=" text-2xl pr-1">▸</span>সেমিস্টার প্ল্যান</Link></li>
                 
                 <li className='flex items-center'><Link to={"/Syllabus"}><span className=" text-2xl pr-1">▸</span>সিলেবাস</Link></li>
+                
+                <li className='flex items-center'><Link to={"/Result"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার ফলাফল</Link></li>
+                
 
-
-                <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>পরীক্ষার ফলাফল</a></li>
             </ul>
         </div>
     </div>
