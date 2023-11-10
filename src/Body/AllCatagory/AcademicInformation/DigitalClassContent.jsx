@@ -7,8 +7,8 @@ export default function DigitalClassContent() {
       <div>
           <table className="border-collapse border border-slate-400 text-[13px] w-full">
               <tr>
-                  <th className={`${style}`} colSpan="1">ক্রমিক নং</th>
-                  <th className={`${style}`} colSpan="2">টেকনোলজি</th>
+                  <th className={`${style}`}>ক্রমিক নং</th>
+                  <th className={`${style}`}>টেকনোলজি</th>
               </tr>
   
               <tr>
