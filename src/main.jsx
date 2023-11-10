@@ -20,6 +20,7 @@ import AllNotice from './Layout/AllNotice.jsx';
 import ContactPage from './Layout/ContactPage.jsx';
 import Result from './Layout/Result.jsx';
 import Technolodgy from './Layout/technolodgy.jsx';
+import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.jsx';
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path:"/Technolodgy",
         element: <Technolodgy></Technolodgy>
+      },
+      {
+        path:"/ClassRoutine",
+        element: <ClassRoutine></ClassRoutine>
       },
     ]
   },
