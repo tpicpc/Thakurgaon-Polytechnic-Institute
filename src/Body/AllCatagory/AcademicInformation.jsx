@@ -9,7 +9,9 @@ export default function AcademicInformation() {
             <ul className='text-slate-500 text-[13px]'>
                 
                 <li className='flex items-center'><Link to={"/ClassRoutine"}><span className=" text-2xl pr-1">▸</span>ক্লাশ রুটিন</Link></li>
-                <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>পরীক্ষার রুটিন</a></li>
+
+                <li className='flex items-center'><Link to={"/ExamRoutine"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার রুটিন</Link></li>
+
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>সেমিস্টার প্ল্যান</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-2xl pr-1">▸</span>সিলেবাস</a></li>

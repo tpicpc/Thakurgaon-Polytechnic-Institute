@@ -21,6 +21,7 @@ import ContactPage from './Layout/ContactPage.jsx';
 import Result from './Layout/Result.jsx';
 import Technolodgy from './Layout/technolodgy.jsx';
 import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.jsx';
+import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx';
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path:"/ClassRoutine",
         element: <ClassRoutine></ClassRoutine>
+      },
+      {
+        path:"/ExamRoutine",
+        element: <ExamRoutine></ExamRoutine>
       },
     ]
   },
