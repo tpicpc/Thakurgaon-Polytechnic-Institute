@@ -17,8 +17,9 @@ export default function StudentCorner() {
                 
                 <li className='flex items-center'><Link to={"/StudentRepresentativeCouncil"}><span className=" text-2xl pr-1">▸</span> শিক্ষার্থী প্রতিনিধি পরিষদ</Link></li>
                 
-
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>শিক্ষার্থীদের সাফল্যের গল্প</a></li>
+                <li className='flex items-center'><Link to={"/StudentSuccessStories"}><span className=" text-2xl pr-1">▸</span>শিক্ষার্থীদের সাফল্যের গল্প</Link></li>
+                
+                
             </ul>
         </div>
     </div>
