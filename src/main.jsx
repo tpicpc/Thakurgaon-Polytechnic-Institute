@@ -25,6 +25,7 @@ import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx'
 import DigitalClassContent from './Body/AllCatagory/AcademicInformation/DigitalClassContent.jsx';
 import SemesterPlan from './Body/AllCatagory/SemesterPlan.jsx';
 import Syllabus from './Body/AllCatagory/Syllabus.jsx';
+import StudentRepresentativeCouncil from './Body/AllCatagory/StudentCorner/StudentRepresentativeCouncil.jsx';
 
 const router = createBrowserRouter([
   {
@@ -90,6 +91,10 @@ const router = createBrowserRouter([
       {
         path:"/Syllabus",
         element: <Syllabus></Syllabus>
+      },
+      {
+        path:"/StudentRepresentativeCouncil",
+        element: <StudentRepresentativeCouncil></StudentRepresentativeCouncil>
       },
     ]
   },

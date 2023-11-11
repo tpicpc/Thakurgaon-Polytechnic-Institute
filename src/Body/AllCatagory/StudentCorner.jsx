@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import StudentCornerimg from '../../../img/studentcorner.png'
 export default function StudentCorner() {
   return (
@@ -6,12 +7,17 @@ export default function StudentCorner() {
         <div className='flex flex-wrap gap-5 items-center ' >
             <img className='w-20 h-32' src={StudentCornerimg} alt="Academicimg" />
             <ul className='text-slate-500 text-[13px] px-3'>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>নিয়ম এবং প্রবিধান</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> বিধ্যমান শিক্ষার্থীর সংখ্যা</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> শিক্ষার্থী ইউনিফর্ম</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>প্রতিষ্ঠানের শিক্ষার্থী</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>শিক্ষার্থী প্রতিনিধি পরিষদ</a></li>
+                <li className='flex items-center'><Link target='_blank' to={"https://www.google.com/drive/"}><span className=" text-2xl pr-1">▸</span> নিয়ম এবং প্রবিধান</Link></li>
+
+                <li className='flex items-center'><Link to={"/"}><span className=" text-2xl pr-1">▸</span> বিধ্যমান শিক্ষার্থীর সংখ্যা</Link></li>
+
+                <li className='flex items-center'><Link to={"/"}><span className=" text-2xl pr-1">▸</span> শিক্ষার্থী ইউনিফর্ম</Link></li>
+                
+                <li className='flex items-center'><Link to={"/"}><span className=" text-2xl pr-1">▸</span> প্রতিষ্ঠানের শিক্ষার্থী</Link></li>
+                
+                <li className='flex items-center'><Link to={"/StudentRepresentativeCouncil"}><span className=" text-2xl pr-1">▸</span> শিক্ষার্থী প্রতিনিধি পরিষদ</Link></li>
+                
+
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>শিক্ষার্থীদের সাফল্যের গল্প</a></li>
             </ul>
         </div>
