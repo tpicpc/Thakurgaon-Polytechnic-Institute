@@ -17,9 +17,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Computer Science Technology (CST)</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-           <Link to={"/Computer"}> Teacher</Link>
-          </button>
+            <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/Computer"}>Teacher</Link>
         </div>
       </div>
       {/* architecture */}

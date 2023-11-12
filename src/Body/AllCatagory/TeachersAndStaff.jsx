@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import TeachersAndStaffimg from '../../../img/teacher-staffs.png'
 export default function TeachersAndStaff() {
   return (
@@ -8,7 +9,7 @@ export default function TeachersAndStaff() {
             <ul className='text-slate-500 text-[13px] px-3'>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>আইএমসি সদস্যরা</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> প্রধান সময়কাল</a></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>শিক্ষক</a></li>
+                <li className='flex items-center'><Link to={"/AllTeachersAndStaff"}><span className=" text-xl pr-1">▸</span>শিক্ষক মন্ডলী</Link></li>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> কর্মী</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>প্রাক্তন শিক্ষক</a></li>
             </ul>
