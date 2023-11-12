@@ -4,8 +4,8 @@ export default function StudentCorner() {
   return (
     <div className='bg-[#FCFCFC] shadow-md shadow-slate-400 p-3 h-full'>
         <h2 className=' font-semibold'>শিক্ষার্থী</h2>
-        <div className='flex flex-wrap gap-5 items-center ' >
-            <img className='w-20 h-32' src={StudentCornerimg} alt="Academicimg" />
+        <div className='flex gap-3 items-center ' >
+            <img className='w-20 h-28' src={StudentCornerimg} alt="Academicimg" />
             <ul className='text-slate-500 text-[13px] px-3'>
                 <li className='flex items-center'><Link target='_blank' to={"https://www.google.com/drive/"}><span className=" text-2xl pr-1">▸</span> নিয়ম এবং প্রবিধান</Link></li>
 

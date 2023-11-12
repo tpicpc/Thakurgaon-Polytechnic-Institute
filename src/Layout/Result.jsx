@@ -5,7 +5,7 @@ export default function Result() {
     const style='border border-slate-300 p-5'
 
   return (
-    <div>
+    <div className=" mb-5">
         <table className="border-collapse border border-slate-400 text-[13px]">
             <tr>
                 <th className={`${style}`}>ফলাফল প্রকাশের তারিখ</th>
