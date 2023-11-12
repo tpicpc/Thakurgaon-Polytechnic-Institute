@@ -27,6 +27,8 @@ import SemesterPlan from './Body/AllCatagory/SemesterPlan.jsx';
 import Syllabus from './Body/AllCatagory/Syllabus.jsx';
 import StudentRepresentativeCouncil from './Body/AllCatagory/StudentCorner/StudentRepresentativeCouncil.jsx';
 import StudentSuccessStories from './Body/AllCatagory/StudentSuccessStories.jsx';
+import AllTeachersAndStaff from './Body/AllCatagory/TeachersAndStaff/AllTeachersAndStaff.jsx';
+import Computer from './Body/AllCatagory/TeachersAndStaff/Computer.jsx';
 
 const router = createBrowserRouter([
   {
@@ -101,6 +103,15 @@ const router = createBrowserRouter([
         path:"/StudentSuccessStories",
         element: <StudentSuccessStories></StudentSuccessStories>
       },
+      {
+        path:"/AllTeachersAndStaff",
+        element: <AllTeachersAndStaff></AllTeachersAndStaff>
+      },
+      {
+        path:"/Computer",
+        element: <Computer></Computer>
+      },
+      
     ]
   },
 ]);

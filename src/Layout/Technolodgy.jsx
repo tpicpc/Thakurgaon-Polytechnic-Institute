@@ -3,6 +3,7 @@ import architecture from '../../img/Technolodgy/architecture.png'
 import Mechatronics from '../../img/Technolodgy/Mechatronics.png'
 import Food from '../../img/Technolodgy/Food.png'
 import RAC from '../../img/Technolodgy/RAC.png'
+import { Link } from 'react-router-dom'
 
 export default function Technolodgy() {
   return (
@@ -77,7 +78,7 @@ function TechnolodgyData({name,img,TotalSeat,First,Second}){
 
             </table>
             <div className="card-actions justify-end">
-                <button className="py-2 w-full bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold">Teachers</button>
+                <button className="py-2 w-full bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold"><Link to={"/AllTeachersAndStaff"}>Teachers</Link></button>
             </div>
         </div>
     </div>
