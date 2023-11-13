@@ -31,6 +31,7 @@ import AllTeachersAndStaff from './Body/AllCatagory/TeachersAndStaff/AllTeachers
 import Computer from './Body/AllCatagory/TeachersAndStaff/Computer.jsx';
 import Food from './Body/AllCatagory/TeachersAndStaff/Food.jsx';
 import Mechatronics from './Body/AllCatagory/TeachersAndStaff/Mechatronics.jsx';
+import RAC from './Body/AllCatagory/TeachersAndStaff/RAC.jsx';
 
 const router = createBrowserRouter([
   {
@@ -120,6 +121,10 @@ const router = createBrowserRouter([
       {
         path:"/Mechatronics",
         element: <Mechatronics></Mechatronics>
+      },
+      {
+        path:"/RAC",
+        element: <RAC></RAC>
       },
       
     ]
