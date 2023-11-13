@@ -38,7 +38,7 @@ function Teacherdata({name,position,img,phone,email}){
             </figure>
             <div className="flex flex-col gap-2 items-center font-semibold text-center">
                 <h2 className="card-title">{name}</h2>
-                <p className='text-[15px]'>{position}</p>
+                <p className='text-[14px]'>{position}</p>
                 <small>Phone : {phone}</small>
                 <small>Email : {email}</small>
             </div>

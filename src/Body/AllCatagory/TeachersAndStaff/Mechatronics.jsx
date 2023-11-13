@@ -1,25 +1,25 @@
 
-import Mossarrof  from '../../../../img/TeacherAndSTaff/Computer/mossarof_food.jpg'
+import ZayedHassan  from '../../../../img/TeacherAndSTaff/Computer/zayed.jpg'
 import Safeuzzaman  from '../../../../img/TeacherAndSTaff/Computer/safivai.jpg'
-export default function Food() {
+export default function Mechatronics() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>
                <Teacherdata 
-                name ="মোঃ মোশাররফ হোসেন"
-                position="ইন্সট্রাক্টর / ফুড (প্রসিড টু রেভিনিউ)"
-                img={Mossarrof}
-                phone="01738553515"
-                email="mossarrofhstu07@gmail.com"
+                name ="মোঃ জায়েদ হাসান"
+                position="ইন্সট্রাক্টর (টেক) মেকাট্রনিক্স"
+                img={ZayedHassan}
+                phone="01747676595"
+                email="zayedhassanme50@gmail.com"
                 
             ></Teacherdata>
             {/* teacher 02 */}
             
-            <Teacherdata
-                name ="শাফিউজ্জামান"
-                position="ইন্সট্রাক্টর / ফুড (প্রসিড টু রেভিনিউ)"
-                img={Safeuzzaman}
-                phone="01722774807"
-                email="safefoodtpi@gmail.com"
+            <Teacherdata 
+                name ="মোঃ জায়েদ হাসান"
+                position="ইন্সট্রাক্টর (টেক) মেকাট্রনিক্স"
+                img={ZayedHassan}
+                phone="01747676595"
+                email="zayedhassanme50@gmail.com"
                 
             ></Teacherdata>
                       

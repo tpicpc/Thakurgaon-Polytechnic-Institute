@@ -30,6 +30,7 @@ import StudentSuccessStories from './Body/AllCatagory/StudentSuccessStories.jsx'
 import AllTeachersAndStaff from './Body/AllCatagory/TeachersAndStaff/AllTeachersAndStaff.jsx';
 import Computer from './Body/AllCatagory/TeachersAndStaff/Computer.jsx';
 import Food from './Body/AllCatagory/TeachersAndStaff/Food.jsx';
+import Mechatronics from './Body/AllCatagory/TeachersAndStaff/Mechatronics.jsx';
 
 const router = createBrowserRouter([
   {
@@ -115,6 +116,10 @@ const router = createBrowserRouter([
       {
         path:"/Food",
         element: <Food></Food>
+      },
+      {
+        path:"/Mechatronics",
+        element: <Mechatronics></Mechatronics>
       },
       
     ]
