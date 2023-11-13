@@ -10,7 +10,7 @@ export default function TeachersAndStaff() {
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>আইএমসি সদস্যরা</a></li>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> প্রধান সময়কাল</a></li>
                 <li className='flex items-center'><Link to={"/AllTeachersAndStaff"}><span className=" text-xl pr-1">▸</span>শিক্ষক মন্ডলী</Link></li>
-                <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span> কর্মী</a></li>
+                <li className='flex items-center'><Link to={"/Staffes"}><span className=" text-xl pr-1">▸</span> স্টাফস </Link></li>
                 <li className='flex items-center'><a href="#"><span className=" text-xl pr-1">▸</span>প্রাক্তন শিক্ষক</a></li>
             </ul>
         </div>

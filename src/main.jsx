@@ -34,6 +34,7 @@ import Mechatronics from './Body/AllCatagory/TeachersAndStaff/Mechatronics.jsx';
 import RAC from './Body/AllCatagory/TeachersAndStaff/RAC.jsx';
 import AIDT from './Body/AllCatagory/TeachersAndStaff/AIDT.jsx';
 import NonTech from './Body/AllCatagory/TeachersAndStaff/NonTech.jsx';
+import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
 
 const router = createBrowserRouter([
   {
@@ -135,6 +136,10 @@ const router = createBrowserRouter([
       {
         path:"/NonTech",
         element: <NonTech></NonTech>
+      },
+      {
+        path:"/Staffes",
+        element: <Staffes></Staffes>
       },
       
     ]

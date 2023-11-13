@@ -14,6 +14,7 @@ export default function Technolodgy() {
         TotalSeat="২০০ জন"
         First="১০০ জন"
         Second="১০০ জন"
+        link="/Computer"
         ></TechnolodgyData>
 
         <TechnolodgyData 
@@ -22,6 +23,8 @@ export default function Technolodgy() {
         TotalSeat="১০০ জন"
         First="৫০ জন"
         Second="৫০ জন"
+        link="/AIDT"
+
         ></TechnolodgyData>
         
         <TechnolodgyData 
@@ -30,6 +33,8 @@ export default function Technolodgy() {
         TotalSeat="১০০ জন"
         First="৫০ জন"
         Second="৫০ জন"
+        link="/Mechatronics"
+
         ></TechnolodgyData>
 
         <TechnolodgyData 
@@ -38,6 +43,8 @@ export default function Technolodgy() {
         TotalSeat="২০০ জন"
         First="১০০ জন"
         Second="১০০ জন"
+        link="/Food"
+
         ></TechnolodgyData>
 
         <TechnolodgyData 
@@ -46,13 +53,15 @@ export default function Technolodgy() {
         TotalSeat="১০০ জন"
         First="৫০ জন"
         Second="৫০ জন"
+        link="/RAC"
+
         ></TechnolodgyData>
 
 
     </div>
   )
 }
-function TechnolodgyData({name,img,TotalSeat,First,Second}){
+function TechnolodgyData({name,img,TotalSeat,First,Second,link}){
     const style='border border-slate-300 p-1 text-center font-semibold text-[12px]'
 
     return(
@@ -78,7 +87,7 @@ function TechnolodgyData({name,img,TotalSeat,First,Second}){
 
             </table>
             <div className="card-actions justify-end">
-                <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={"/AllTeachersAndStaff"}>Teachers</Link>
+                <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={`${link}`}>Teachers</Link>
             </div>
         </div>
     </div>
