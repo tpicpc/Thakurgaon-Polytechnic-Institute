@@ -33,6 +33,7 @@ import Food from './Body/AllCatagory/TeachersAndStaff/Food.jsx';
 import Mechatronics from './Body/AllCatagory/TeachersAndStaff/Mechatronics.jsx';
 import RAC from './Body/AllCatagory/TeachersAndStaff/RAC.jsx';
 import AIDT from './Body/AllCatagory/TeachersAndStaff/AIDT.jsx';
+import NonTech from './Body/AllCatagory/TeachersAndStaff/NonTech.jsx';
 
 const router = createBrowserRouter([
   {
@@ -130,6 +131,10 @@ const router = createBrowserRouter([
       {
         path:"/AIDT",
         element: <AIDT></AIDT>
+      },
+      {
+        path:"/NonTech",
+        element: <NonTech></NonTech>
       },
       
     ]

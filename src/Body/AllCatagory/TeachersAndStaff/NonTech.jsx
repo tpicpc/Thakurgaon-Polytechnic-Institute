@@ -1,15 +1,15 @@
 
 import AltafHossain  from '../../../../img/TeacherAndSTaff/Computer/altaf.jpg'
 import Shahajahan  from '../../../../img/TeacherAndSTaff/Computer/shajahan.jpg'
-export default function RAC() {
+export default function NonTech() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>
                <Teacherdata 
                 name ="মোঃ আলতাফ হোসেন"
                 position="চিফ ইন্সট্রাক্টর / (নন-টেক)"
                 img={AltafHossain}
-                phone="01747676595"
-                email="zayedhassanme50@gmail.com"
+                phone="01712602084"
+                email="mdaltafhossain79@gmail.com"
                 
             ></Teacherdata>
             {/* teacher 02 */}
