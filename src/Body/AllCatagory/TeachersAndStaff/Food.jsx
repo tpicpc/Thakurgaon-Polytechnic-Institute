@@ -1,15 +1,13 @@
-import alamgirSir from '../../../../img/TeacherAndSTaff/Computer/alamgirSir.jpg'
-import maminulIslam from '../../../../img/TeacherAndSTaff/Computer/maminulIslam.jpg'
 
-
-export default function Computer() {
-
-    return (
-      <div className='md:grid gap-5 grid-cols-2'>
+import Mossarrof  from '../../../../img/TeacherAndSTaff/Computer/mossarof_food.jpg'
+import Safeuzzaman  from '../../../../img/TeacherAndSTaff/Computer/safivai.jpg'
+export default function Food() {
+  return (
+    <div className='md:grid gap-5 grid-cols-2'>
                <Teacherdata 
                 name ="মোঃ মমিনুল ইসলাম"
                 position="চিফ ইন্সট্রাক্টর ও বিভাগীয় প্রধান (টেক/কম্পিউটার)"
-                img={maminulIslam}
+                img={Mossarrof}
                 phone="01716514614"
                 email="maminulins@gmail.com"
                 
@@ -19,17 +17,15 @@ export default function Computer() {
             <Teacherdata
                 name ="মোঃ আলমগীর"
                 position="ইন্সট্রাক্টর / কম্পিউটার (প্রসিড টু রেভিনিউ )"
-                img={alamgirSir}
+                img={Safeuzzaman}
                 phone="01724334828"
                 email="alamgircse13@gmail.com"
                 
             ></Teacherdata>
                       
       </div>
-    )
+  )
 }
-
-
 function Teacherdata({name,position,img,phone,email}){
     return(
         <div className="flex flex-col items-center gap-4 justify-between shadow-slate-500 shadow-lg p-6 mb-5 md:mb-0 rounded-lg">

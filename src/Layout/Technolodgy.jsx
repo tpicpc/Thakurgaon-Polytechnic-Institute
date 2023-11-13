@@ -78,7 +78,7 @@ function TechnolodgyData({name,img,TotalSeat,First,Second}){
 
             </table>
             <div className="card-actions justify-end">
-                <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={"/Computer"}>Teachers</Link>
+                <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={"/AllTeachersAndStaff"}>Teachers</Link>
             </div>
         </div>
     </div>

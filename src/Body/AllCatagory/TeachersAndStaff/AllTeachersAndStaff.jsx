@@ -27,9 +27,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Architecture And Interior Design (AIDT)</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/"}>Teacher</Link>
         </div>
       </div>
       {/* Food */}
@@ -39,9 +37,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Food Technology</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/Food"}>Teacher</Link>
         </div>
       </div>
       {/* Mechatronics */}
@@ -51,9 +47,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Mechatronics Technology</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/"}>Teacher</Link>
         </div>
       </div>
       {/* RAC */}
@@ -63,9 +57,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Refrigeration and Air Conditioning (RAC)</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/"}>Teacher</Link>
         </div>
       </div>
       {/* NonTech */}
@@ -75,9 +67,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">NonTech</h2>
-          <button className=" w-full py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/"}>Teacher</Link>
         </div>
       </div>
       {/* Staff */}
@@ -87,9 +77,7 @@ export default function AllTeachersAndStaff() {
         </figure>
         <div className="card-body justify-end items-center w-full text-center">
           <h2 className="card-title">Academic Staffs</h2>
-          <button className=" w-full px-8 py-2 hover:text-white  bg-green-400 font-semibold rounded-lg hover:bg-green-500 ">
-          <Link> Teacher</Link>
-          </button>
+          <Link className=" w-full py-2 hover:text-white bg-green-400 font-semibold rounded-lg hover:bg-green-500" to={"/"}>Members</Link>
         </div>
 
       </div>

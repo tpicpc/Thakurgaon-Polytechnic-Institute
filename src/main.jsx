@@ -29,6 +29,7 @@ import StudentRepresentativeCouncil from './Body/AllCatagory/StudentCorner/Stude
 import StudentSuccessStories from './Body/AllCatagory/StudentSuccessStories.jsx';
 import AllTeachersAndStaff from './Body/AllCatagory/TeachersAndStaff/AllTeachersAndStaff.jsx';
 import Computer from './Body/AllCatagory/TeachersAndStaff/Computer.jsx';
+import Food from './Body/AllCatagory/TeachersAndStaff/Food.jsx';
 
 const router = createBrowserRouter([
   {
@@ -110,6 +111,10 @@ const router = createBrowserRouter([
       {
         path:"/Computer",
         element: <Computer></Computer>
+      },
+      {
+        path:"/Food",
+        element: <Food></Food>
       },
       
     ]
