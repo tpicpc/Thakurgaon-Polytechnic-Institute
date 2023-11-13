@@ -30,6 +30,9 @@ export default function Nav({setIsOpen,isOpen}) {
                     <li><Link to={"/Result"} className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল</Link></li>
 
                     <li><Link to={"/Technolodgy"} className="text-green-600 py-[11px] w-full h-full px-3 hover:bg-green-600 hover:text-white">টেকনোলজি</Link></li>
+                    
+                    <li><Link to={"/Clubs"} className="text-blue-600 py-[11px] w-full h-full px-3 hover:bg-blue-600 hover:text-white">ক্লাব সমূহ</Link></li>
+
 
                     </div>
             </div>

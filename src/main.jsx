@@ -33,6 +33,7 @@ import RAC from './Body/AllCatagory/TeachersAndStaff/RAC.jsx';
 import AIDT from './Body/AllCatagory/TeachersAndStaff/AIDT.jsx';
 import NonTech from './Body/AllCatagory/TeachersAndStaff/NonTech.jsx';
 import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
+import Clubs from './Layout/Clubs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -76,8 +77,8 @@ const router = createBrowserRouter([
         element: <Result></Result>
       },
       {
-        path:"/Technolodgy",
-        element: <Technolodgy></Technolodgy>
+        path:"/Clubs",
+        element: <Clubs></Clubs>
       },
       {
         path:"/ClassRoutine",
