@@ -86,6 +86,7 @@ function ContactPage() {
 
 export default ContactPage;
 import img from '../../img/1.jpg'
+import { Link } from 'react-router-dom';
 function HeroSection() {
   return (
     <section className="text-gray-600 body-font border-[1px] border-slate-300 rounded-lg shadow-md shadow-[#1D8219] mb-5">
@@ -101,9 +102,10 @@ function HeroSection() {
           <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
           Conatact Information
           </h1>
-          <h2 className='card-title mb-1'>Thakugaon Polytechnic Institute</h2><small className=' mb-1'>(Gobindra Nogor, Thakurgaon Road , Thakurgaon)</small>
-          <p className=' font-medium text-sm'>Phone:0561-61400</p>
-          <p className=' font-medium text-sm'>Email:principal@tpi.edu.bd</p>
+          <h2 className='card-title mb-1'> <i className='bx bxs-institution'></i>Thakugaon Polytechnic Institute</h2>
+          <small className=' mb-1'><i className='bx bxs-location-plus text-blue-600' ></i> <Link target='_blank' to={"https://maps.app.goo.gl/xi8kUSHienCtAUQt7"}>(Gobindra Nogor, Thakurgaon Road , Thakurgaon)</Link></small>
+          <p className=' font-medium text-sm'><i className='bx bxs-phone' ></i> Phone:0561-61400</p>
+          <p className=' font-medium text-sm'> <i className='bx bxs-envelope' ></i> Email:principal@tpi.edu.bd</p>
           
         </div>
       </div>

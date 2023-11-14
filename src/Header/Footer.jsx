@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <div className="mx-auto md:w-full xl:w-9/12 lg:w-9/12 w-full flex flex-col gap-4 text-[13px] text-slate-500 mb-6 p-3 lg:p-0">
         <div className="lg:flex justify-between flex-wrap ">
             <ul className="flex flex-wrap mb-3">
-                <li><a className="hover:bg-slate-400 hover:text-white px-2 py-1" href="#">অভিযোগ </a></li>
-                <li><a className="hover:bg-slate-400 hover:text-white px-2 py-1" href="#">যোগাযোগ</a></li>
-                <li><a className="hover:bg-slate-400 hover:text-white px-2 py-1" href="#">পরামর্শ</a></li>
+                <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/ContactPage"} className="hover:bg-slate-400 hover:text-white px-2 py-1" >অভিযোগ</Link></li>
+
+                <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/ContactPage"} className="hover:bg-slate-400 hover:text-white px-2 py-1" >যোগাযোগ</Link></li>
+                <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/ContactPage"} className="hover:bg-slate-400 hover:text-white px-2 py-1" >পরামর্শ</Link></li>
+
             </ul>
 
             <ul>
