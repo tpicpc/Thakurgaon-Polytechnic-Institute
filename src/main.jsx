@@ -77,8 +77,16 @@ const router = createBrowserRouter([
         element: <Result></Result>
       },
       {
+        path:"/Result",
+        element: <Result></Result>
+      },
+      {
+        path:"/Technolodgy",
+        element: <Technolodgy></Technolodgy>
+      },
+      {
         path:"/Clubs",
-        element: <Clubs></Clubs>
+        element:<Clubs></Clubs>
       },
       {
         path:"/ClassRoutine",

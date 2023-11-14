@@ -1,3 +1,4 @@
+import '../App.css'
 import { Outlet } from "react-router-dom";
 import MainCategories from "./MainCategories";
 import FooterImg from "../Body/FooterImg";

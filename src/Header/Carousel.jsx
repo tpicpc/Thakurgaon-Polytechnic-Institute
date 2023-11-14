@@ -17,7 +17,6 @@ function Carousel({setIsOpen,isOpen}) {
             <a href="#slide4" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❮
             </a>
-            <Data></Data>
             <a href="#slide2" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
@@ -29,7 +28,6 @@ function Carousel({setIsOpen,isOpen}) {
             <a href="#slide1" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❮
             </a>
-            <Data></Data>
             <a href="#slide3" className="text-orange-700 text-[12px] hover:text-orange-500">
               ❯
             </a>
@@ -42,7 +40,6 @@ function Carousel({setIsOpen,isOpen}) {
             <a href="#slide2" className="text-orange-700 hover:text-orange-500 ">
               ❮
             </a>
-            <Data></Data>
             <a href="#slide4" className="text-orange-700 hover:text-orange-500">
               ❯
             </a>
@@ -54,7 +51,6 @@ function Carousel({setIsOpen,isOpen}) {
             <a href="#slide3" className="text-orange-700 hover:text-orange-500">
               ❮
             </a>
-            <Data></Data>
             <a href="#slide1" className="text-orange-700 hover:text-orange-500">
               ❯
             </a>
@@ -63,6 +59,8 @@ function Carousel({setIsOpen,isOpen}) {
         </div>
       </div>
       <Nav setIsOpen={setIsOpen} isOpen={isOpen}></Nav>
+      <Data></Data>
+
     </div>
     
   );
@@ -70,9 +68,9 @@ function Carousel({setIsOpen,isOpen}) {
 
 function Data(){
     return(
-        <div className="w-9/12 mx-auto items-center justify-center h-40 md:justify-start flex flex-wrap gap-3">
+        <div className="w-auto mx-auto absolute top-36 sm:left-32 md:left-32 lg:left-60 left- items-center justify-center h-auto md:justify-start flex flex-wrap gap-3">
               <img className="max-w-24 max-h-24 " src={gov} alt="GovLogo" />
-              <h2 className="text-[16px] text-center md:text-2xl font-semibold text-white">
+              <h2 className="text-[16px] text-center md:text-2xl  md:w-auto font-semibold text-white">
                 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট
               </h2>
         </div>
