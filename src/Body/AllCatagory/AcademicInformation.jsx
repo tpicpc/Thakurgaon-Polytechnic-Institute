@@ -8,17 +8,17 @@ export default function AcademicInformation() {
             <img className='w-20 h-32' src={Academicimg} alt="Academicimg" />
             <ul className='text-slate-500 text-[13px]'>
                 
-                <li className='flex items-center'><Link to={"/ClassRoutine"}><span className=" text-2xl pr-1">▸</span>ক্লাশ রুটিন</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/ClassRoutine"}><span className=" text-2xl pr-1">▸</span>ক্লাশ রুটিন</Link></li>
 
-                <li className='flex items-center'><Link to={"/ExamRoutine"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার রুটিন</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/ExamRoutine"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার রুটিন</Link></li>
 
-                <li className='flex items-center'><Link to={"/DigitalClassContent"}><span className=" text-2xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/DigitalClassContent"}><span className=" text-2xl pr-1">▸</span>ডিজিটাল ক্লাশ কনটেন্ট</Link></li>
                 
-                <li className='flex items-center'><Link to={"/SemesterPlan"}><span className=" text-2xl pr-1">▸</span>সেমিস্টার প্ল্যান</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/SemesterPlan"}><span className=" text-2xl pr-1">▸</span>সেমিস্টার প্ল্যান</Link></li>
                 
-                <li className='flex items-center'><Link to={"/Syllabus"}><span className=" text-2xl pr-1">▸</span>সিলেবাস</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/Syllabus"}><span className=" text-2xl pr-1">▸</span>সিলেবাস</Link></li>
                 
-                <li className='flex items-center'><Link to={"/Result"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার ফলাফল</Link></li>
+                <li className='flex items-center'><Link onClick={()=> window.scrollTo(0, 450)} to={"/Result"}><span className=" text-2xl pr-1">▸</span>পরীক্ষার ফলাফল</Link></li>
                 
 
             </ul>

@@ -26,7 +26,7 @@ export default function Clubs() {
 }
 function ClubsData({img,name,defination,about,link}) {
   return (
-    <div className="flex mb-5 justify-between items-center shadow-md rounded-lg shadow-slate-500  p-3">
+    <div className="md:flex mb-5 justify-between items-center shadow-md rounded-lg shadow-slate-500  p-3">
       <figure>
         <img
         className='w-[600px]'
@@ -34,10 +34,10 @@ function ClubsData({img,name,defination,about,link}) {
           alt="Clubs image"
         />
       </figure>
-      <div className="card-body font-semibold">
+      <div className="flex flex-col gap-3 font-semibold">
         <h2 className="card-title">{name}</h2>
         <p>{defination}</p>
-        <small className=' text-slate-500'>{about}</small>
+        <small className=' text-slate-500 text-justify'>{about}</small>
         <div className="card-actions justify-end">
                 <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={`${link}`} target="_blank">More Details</Link>
             </div>
