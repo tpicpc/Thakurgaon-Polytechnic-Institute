@@ -34,6 +34,7 @@ import AIDT from './Body/AllCatagory/TeachersAndStaff/AIDT.jsx';
 import NonTech from './Body/AllCatagory/TeachersAndStaff/NonTech.jsx';
 import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
 import Clubs from './Layout/Clubs.jsx';
+import TPIatAGlance from './Layout/TPIatAGlance.jsx';
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path:"/OurVision",
         element: <OurVision></OurVision>
+      },
+      {
+        path:"/TPIatAGlance",
+        element: <TPIatAGlance></TPIatAGlance>
       },
       {
         path:"/FocalPerson",
