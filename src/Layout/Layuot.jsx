@@ -29,9 +29,10 @@ export default function Layuot ()  {
           <Carousel></Carousel>
           <Nav setIsOpen={setIsOpen} isOpen={isOpen}></Nav>
           {/* this is drop down section */}
-          <div className={`${isOpen ? "block transition-all duration-500" : " duration-500 transition-all hidden"} w-full`}>
-          <DropDowndata></DropDowndata>
+          <div className={`${isOpen ? "block transition duration-1000" : "hidden transition duration-1000"} w-full`}>
+            <DropDowndata />
           </div>
+
           {/* --------------------- drop down */}
         </section>
 

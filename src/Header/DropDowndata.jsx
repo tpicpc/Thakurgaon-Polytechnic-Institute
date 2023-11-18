@@ -5,7 +5,7 @@ export default function DropDowndata({isOpen,setIsOpen}) {
 
   return (
     <>
-    <ul className=" text-center ">
+    <ul className=" text-center transition-all">
       <li className="border-b-[2px] border-[#1B8119]  py-3">
         <details>
         <summary className="text-red-500  w-full h-full">TPI সম্পর্কে</summary>
