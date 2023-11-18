@@ -57,20 +57,20 @@ export default function FocalPerson() {
 }
 function FocalPersonData({Responsibility,name,positions,phone,email,img}) {
   return (
-    <div className=" md:flex gap-5 rounded-lg bg-base-100 shadow-md shadow-slate-400 overflow-hidden p-1 md:p-0 mb-5">
+    <div className=" md:flex gap-5 rounded-lg bg-base-100 shadow-lg shadow-slate-400 overflow-hidden p-1 md:p-0 mb-5">
       <figure className='w-auto'>
         <img
-            className='md:w-64 w-full h-56 rounded-lg border-[2px] border-slate-400'
+            className='md:w-64 w-full h-56 rounded-lg border-[2px] border-black'
           src={img}
           alt="Teacher"
         />
       </figure>
       <div className='p-3 w-full'>
-        <h2 className="w-full text-center text-2xl font-semibold mb-5">{Responsibility}</h2>
-        <h2 className='text-xl font-bold py-2'>{name}</h2>
-        <p className='text-sm font-semibold py-1'>{positions}</p>
-        <p className='text-sm font-semibold py-1'>{phone}</p>
-        <p className='text-sm font-semibold py-1'>{email}</p>
+        <h2 className="bg-gradient-to-r from-[#1B8119] to-[#46A20D] mb-4 py-2 text-white border-l-[4px] border-red-600 pl-3">{Responsibility}</h2>
+        <h2 className='text-xl text-green-700 font-bold py-2'>{name}</h2>
+        <p className='text-sm text-slate-600 font-semibold py-1'>{positions}</p>
+        <p className='text-sm text-slate-600 font-semibold py-1'>{phone}</p>
+        <p className='text-sm text-slate-600 font-semibold py-1'>{email}</p>
       </div>
     </div>
   );
