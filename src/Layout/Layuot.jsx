@@ -1,10 +1,6 @@
 import '../App.css'
 import { Outlet } from "react-router-dom";
-import MainCategories from "./MainCategories";
 import FooterImg from "../Body/FooterImg";
-import Introduction from "../Body/Introduction";
-import Notice from "../Body/Notice";
-import OurVision from "../Body/OurVision";
 import CentralEServices from "../Body/Sidebar/CentralEServices";
 import EmergencyHotline from "../Body/Sidebar/EmergencyHotline";
 import Eservices from "../Body/Sidebar/Eservices";
@@ -15,28 +11,28 @@ import NationalAnthem from "../Body/Sidebar/NationalAnthem";
 import NumberOfVisitors from "../Body/Sidebar/NumberOfVisitors";
 import StudentInformation from "../Body/Sidebar/StudentInformation";
 import YourIPAddress from "../Body/Sidebar/YourIPAddress";
-import UpdateNews from "../Body/UpdateNews";
 import Carousel from "../Header/Carousel";
 import Footer from "../Header/Footer";
 import Header from "../Header/Header";
 import HotNews from "../Header/HotNews";
 import { useState } from "react";
 import DropDowndata from "../Header/DropDowndata";
+import Nav from '../Header/Nav';
 
 export default function Layuot ()  {
   const [isOpen,setIsOpen]=useState(false)
     return (
         <div className='background'>
+        {/* header section */}
         <section className='xl:w-9/12 px-5 lg:px-0 lg:w-9/12 md:w-full mx-auto  '>
           <Header></Header>
-          <Carousel setIsOpen={setIsOpen} isOpen={isOpen}></Carousel>
-          {/* this code for dropdown menu bar */}
-          <div className={`${isOpen ? " block duration-700 transition-all" : "hidden duration-0"}`}>
-              <ul className={` duration-700 dropdown-menu h-auto flex flex-col px-2 py-4 bg-slate-300 bg-opacity-30 shadow-lg md:w-[165vh] text-center `}>
-                <DropDowndata></DropDowndata>
-              </ul>
+          <Carousel></Carousel>
+          <Nav setIsOpen={setIsOpen} isOpen={isOpen}></Nav>
+          {/* this is drop down section */}
+          <div className={`${isOpen ? "block transition-all duration-500" : " duration-500 transition-all hidden"} w-full`}>
+          <DropDowndata></DropDowndata>
           </div>
-          {/* dropdown menu bar end hear */}
+          {/* --------------------- drop down */}
         </section>
 
 

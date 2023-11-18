@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import DropDown from "./DropDown";
-import Navbar from "./DropDown";
 
 export default function Nav({setIsOpen,isOpen}) {
   return (

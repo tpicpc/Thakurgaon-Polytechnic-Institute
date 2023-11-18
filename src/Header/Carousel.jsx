@@ -58,7 +58,6 @@ function Carousel({setIsOpen,isOpen}) {
           </div>
         </div>
       </div>
-      <Nav setIsOpen={setIsOpen} isOpen={isOpen}></Nav>
       <Data></Data>
 
     </div>
