@@ -68,7 +68,7 @@ function TechnolodgyData({name,img,TotalSeat,First,Second,link}){
     <div className="md:flex items-center justify-center bg-base-100 rounded-md shadow-xl border-[1px] border-slate-200 mb-5">
         <figure><img className='md:w-56 w-full' src={img} alt="Movie"/></figure>
         <div className="card-body">
-            <h2 className="card-title text-center">{name}</h2>
+            <h2 className="text-base md:text-xl font-semibold bg-gradient-to-r from-[#1B8119] to-[#46A20D] mb-3 py-2 text-white border-l-[4px] border-red-600 pl-3">{name}</h2>
             <table className="border-collapse border border-slate-400 text-[13px]">
                 <tr>
                     <th className={`${style} text-[15px]`}>সর্বমোট আসন</th>

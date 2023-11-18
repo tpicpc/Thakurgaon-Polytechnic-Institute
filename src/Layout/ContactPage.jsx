@@ -99,9 +99,10 @@ function HeroSection() {
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-medium text-gray-900">
-          Conatact Information
+          <h1 className=" text-gray-900">
+         
           </h1>
+          <h2 className="bg-gradient-to-r from-[#1B8119] to-[#46A20D] mb-4 py-2 text-white border-l-[4px] border-red-600 pl-3 title-font w-full sm:text-3xl text-2xl font-medium"> Conatact Information</h2>
           <h2 className='card-title mb-1'> <i className='bx bxs-institution'></i>Thakugaon Polytechnic Institute</h2>
           <small className=' mb-1'><i className='bx bxs-location-plus text-blue-600' ></i> <Link target='_blank' to={"https://maps.app.goo.gl/xi8kUSHienCtAUQt7"}>(Gobindra Nogor, Thakurgaon Road , Thakurgaon)</Link></small>
           <p className=' font-medium text-sm'><i className='bx bxs-phone' ></i> Phone:0561-61400</p>

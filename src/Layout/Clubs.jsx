@@ -35,7 +35,7 @@ function ClubsData({img,name,defination,about,link}) {
         />
       </figure>
       <div className="flex flex-col gap-3 font-semibold">
-        <h2 className="card-title">{name}</h2>
+      <h2 className="text-base md:text-xl font-semibold bg-gradient-to-r from-[#1B8119] to-[#46A20D] mb-3 py-1 text-white border-l-[4px] border-red-600 pl-3">{name}</h2>
         <p>{defination}</p>
         <small className=' text-slate-500 text-justify'>{about}</small>
         <div className="card-actions justify-end">
