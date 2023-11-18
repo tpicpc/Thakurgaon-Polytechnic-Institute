@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <h2 className=" text-justify "><a className="hover:text-black" href="#"><span className="font-semibold">ডিজাইন ও ডেভেলপমেন্টঃ-</span> মোঃ মমিনুল ইসলাম। ( বিভাগীয় প্রধানঃ- কম্পিউটার, টি.পি.আই ) ।</a></h2>
         <small className="font-semibold text-black text-justify ">কপিরাইট © 2023 ঠাকুরগাঁও পলিটেকনিক ইনস্টিটিউট ( Version: 0.0.1 )</small>
-        <h2 className="text-center hover:text-black">( কারিগরি সহায়তায়: সানোয়ার হোসেন অনিক )</h2>
+        <h2 className="text-center hover:text-black">( কারিগরি সহায়তায়: মোঃ মুজাহিদুল ইসলাম / শাহিনুর ইসলাম ( শাহীন ) )</h2>
     </div>
   )
 }
