@@ -12,28 +12,28 @@ export default function Nav({setIsOpen,isOpen}) {
                 <div className="flex">
                     <li className="dropdown dropdown-hover"><Link tabIndex={0} className="text-red-500 py-[11px] w-full h-full px-3 hover:bg-red-500 hover:text-white">TPI সম্পর্কে ▾</Link>
                         <ul tabIndex={0} className="dropdown-content text-black w-56 hover:  z-[1] mt-3 menu p-2 shadow bg-base-100">
-                            <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Introduction"} className="hover:text-red-500">পরিচিতি ও ইতিহাস</Link></li>
+                            <li><Link to={"/Introduction"} className="hover:text-red-500">পরিচিতি ও ইতিহাস</Link></li>
 
-                            <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/TPIatAGlance"} className="hover:text-red-500">এক নজরে TPI </Link></li>
+                            <li><Link to={"/TPIatAGlance"} className="hover:text-red-500">এক নজরে TPI </Link></li>
 
-                            <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/OurVision"} className="hover:text-red-500">আমাদের লক্ষ্য ও উদ্দেশ্য</Link></li>
+                            <li><Link to={"/OurVision"} className="hover:text-red-500">আমাদের লক্ষ্য ও উদ্দেশ্য</Link></li>
                         </ul>
 
                     </li>
                     
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/FocalPerson"} className="py-[11px] text-purple-500 w-full h-full px-3 hover:bg-purple-500 hover:text-white">ফোকাল ব্যক্তি </Link></li>
+                    <li><Link to={"/FocalPerson"} className="py-[11px] text-purple-500 w-full h-full px-3 hover:bg-purple-500 hover:text-white">ফোকাল ব্যক্তি </Link></li>
                         
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Facilities"} className=" py-[11px] text-cyan-500 w-full h-full px-3 hover:bg-cyan-500 hover:text-white">সু্যোগ - সুবিধা </Link></li>
+                    <li><Link to={"/Facilities"} className=" py-[11px] text-cyan-500 w-full h-full px-3 hover:bg-cyan-500 hover:text-white">সু্যোগ - সুবিধা </Link></li>
                         
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Notice"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D]  hover:text-white">নোটিশ</Link></li>
+                    <li><Link to={"/Notice"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D]  hover:text-white">নোটিশ</Link></li>
                         
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/ContactPage"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D] hover:text-white">যোগাযোগ</Link></li>
+                    <li><Link to={"/ContactPage"} className="text-[#84154D] py-[11px] w-full h-full px-3 hover:bg-[#84154D] hover:text-white">যোগাযোগ</Link></li>
                         
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Result"} className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল</Link></li>
+                    <li><Link to={"/Result"} className="text-[#000000] py-[11px] w-full h-full px-3 hover:bg-[#000000] hover:text-white">ফলাফল</Link></li>
 
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Technolodgy"} className="text-green-600 py-[11px] w-full h-full px-3 hover:bg-green-600 hover:text-white">টেকনোলজি</Link></li>
+                    <li><Link to={"/Technolodgy"} className="text-green-600 py-[11px] w-full h-full px-3 hover:bg-green-600 hover:text-white">টেকনোলজি</Link></li>
                     
-                    <li><Link onClick={()=> window.scrollTo(0, 450)} to={"/Clubs"} className="text-blue-600 py-[11px] w-full h-full px-3 hover:bg-blue-600 hover:text-white">ক্লাব সমূহ</Link></li>
+                    <li><Link to={"/Clubs"} className="text-blue-600 py-[11px] w-full h-full px-3 hover:bg-blue-600 hover:text-white">ক্লাব সমূহ</Link></li>
 
 
                     </div>
