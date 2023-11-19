@@ -17,7 +17,7 @@ import MainCategories from './Layout/MainCategories.jsx';
 import AllNotice from './Layout/AllNotice.jsx';
 import ContactPage from './Layout/ContactPage.jsx';
 import Result from './Layout/Result.jsx';
-import Technolodgy from './Layout/technolodgy.jsx';
+import Technolodgy from './Layout/Technolodgy.jsx';
 import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.jsx';
 import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx';
 import DigitalClassContent from './Body/AllCatagory/AcademicInformation/DigitalClassContent.jsx';
