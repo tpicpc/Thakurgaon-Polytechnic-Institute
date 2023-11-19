@@ -60,7 +60,7 @@ function FocalPersonData({Responsibility,name,positions,phone,email,img}) {
     <div className=" md:flex gap-5 rounded-lg bg-base-100 shadow-lg shadow-slate-400 overflow-hidden p-1 md:p-0 mb-5">
       <figure className='w-auto'>
         <img
-            className='md:w-64 w-full h-56 rounded-lg border-[2px] border-black'
+            className='md:w-64 w-full md:h-56 rounded-lg border-[2px] border-black'
           src={img}
           alt="Teacher"
         />
