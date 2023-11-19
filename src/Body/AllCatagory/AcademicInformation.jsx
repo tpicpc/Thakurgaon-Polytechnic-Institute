@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import Academicimg from '../../../img/Academicimg.png'
+import Academicimg from '../../../public/img/Academicimg.png'
 export default function AcademicInformation() {
   return (
     <div className='bg-[#FCFCFC] shadow-md shadow-slate-400 p-3'>

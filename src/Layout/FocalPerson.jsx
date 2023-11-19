@@ -1,8 +1,8 @@
-import img1 from '../../img/Focalpr Person/viceprinciple.jpg'
-import img2 from '../../img/Focalpr Person/ariful_islam.jpg'
-import img3 from '../../img/Focalpr Person/shajahan.jpg'
-import img4 from '../../img/Focalpr Person/shamim_sultan.jpg'
-import img5 from '../../img/Focalpr Person/sonjoy_bonik.jpg'
+import img1 from '../../public/img/Focalpr Person/viceprinciple.jpg'
+import img2 from '../../public/img/Focalpr Person/ariful_islam.jpg'
+import img3 from '../../public/img/Focalpr Person/shajahan.jpg'
+import img4 from '../../public/img/Focalpr Person/shamim_sultan.jpg'
+import img5 from '../../public/img/Focalpr Person/sonjoy_bonik.jpg'
 
 export default function FocalPerson() {
   return (

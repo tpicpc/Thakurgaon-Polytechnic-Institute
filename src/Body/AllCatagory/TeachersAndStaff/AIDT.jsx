@@ -1,6 +1,6 @@
 
-import NibirSarkar  from '../../../../img/TeacherAndSTaff/Computer/nibir.jpg'
-import ShailaAkhterSharme  from '../../../../img/TeacherAndSTaff/Computer/shaila.jpg'
+import NibirSarkar  from '../../../../public/img/TeacherAndSTaff/Computer/nibir.jpg'
+import ShailaAkhterSharme  from '../../../../public/img/TeacherAndSTaff/Computer/shaila.jpg'
 export default function AIDT() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

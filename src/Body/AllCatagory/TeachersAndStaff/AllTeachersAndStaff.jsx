@@ -1,10 +1,10 @@
-import Computer from "../../../../img/TeacherAndSTaff/Computer.png";
-import architecture from "../../../../img/TeacherAndSTaff/architecture.png";
-import Food from "../../../../img/TeacherAndSTaff/Food.png";
-import Mechatronics from "../../../../img/TeacherAndSTaff/Mechatronics.png";
-import RAC from "../../../../img/TeacherAndSTaff/RAC.png";
-import NonTech from "../../../../img/TeacherAndSTaff/NonTech.png";
-import Staff from "../../../../img/TeacherAndSTaff/Staff.png";
+import Computer from "../../../../public/img/TeacherAndSTaff/Computer.png";
+import architecture from "../../../../public/img/TeacherAndSTaff/architecture.png";
+import Food from "../../../../public/img/TeacherAndSTaff/Food.png";
+import Mechatronics from "../../../../public/img/TeacherAndSTaff/Mechatronics.png";
+import RAC from "../../../../public/img/TeacherAndSTaff/RAC.png";
+import NonTech from "../../../../public/img/TeacherAndSTaff/NonTech.png";
+import Staff from "../../../../public/img/TeacherAndSTaff/Staff.png";
 import { Link } from "react-router-dom";
 
 export default function AllTeachersAndStaff() {

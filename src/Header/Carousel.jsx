@@ -1,9 +1,9 @@
 import { useState } from "react";
-import img1 from "../../img/1.jpg";
-import img2 from "../../img/2.jpg";
-import img3 from "../../img/3.jpg";
-import img4 from "../../img/4.jpg";
-import gov from "../../img/bangladesh-government-removebg-preview.png";
+import img1 from "../../public/img/1.jpg";
+import img2 from "../../public/img/2.jpg";
+import img3 from "../../public/img/3.jpg";
+import img4 from "../../public/img/4.jpg";
+import gov from "../../public/img/bangladesh-government-removebg-preview.png";
 import Nav from "./Nav";
 
 function Carousel({setIsOpen,isOpen}) {

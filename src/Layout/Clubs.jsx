@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import TPICPC from '../../img/TPICPC.png'
+import TPICPC from '../../public/img/TPICPC.png'
 
 export default function Clubs() {
   return (

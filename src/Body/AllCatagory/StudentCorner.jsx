@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import StudentCornerimg from '../../../img/studentcorner.png'
+import StudentCornerimg from '../../../public/img/studentcorner.png'
 export default function StudentCorner() {
   return (
     <div className='bg-[#FCFCFC] shadow-md shadow-slate-400 p-3 h-full'>

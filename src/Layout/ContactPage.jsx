@@ -85,7 +85,7 @@ function ContactPage() {
 }
 
 export default ContactPage;
-import img from '../../img/1.jpg'
+import img from '../../public/img/1.jpg'
 import { Link } from 'react-router-dom';
 function HeroSection() {
   return (

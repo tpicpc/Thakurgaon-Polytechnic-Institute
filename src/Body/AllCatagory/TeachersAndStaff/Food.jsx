@@ -1,6 +1,6 @@
 
-import Mossarrof  from '../../../../img/TeacherAndSTaff/Computer/mossarof_food.jpg'
-import Safeuzzaman  from '../../../../img/TeacherAndSTaff/Computer/safivai.jpg'
+import Mossarrof  from '../../../../public/img/TeacherAndSTaff/Computer/mossarof_food.jpg'
+import Safeuzzaman  from '../../../../public/img/TeacherAndSTaff/Computer/safivai.jpg'
 export default function Food() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

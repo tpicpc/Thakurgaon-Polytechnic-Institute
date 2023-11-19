@@ -1,4 +1,4 @@
-import hotimg from "../../../img/999.png"
+import hotimg from "../../../public/img/999.png"
 export default function EmergencyHotline() {
   return (
     <div className="my-4">

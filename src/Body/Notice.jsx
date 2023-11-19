@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import noticelogo from "../../img/bg-notice-board.png"
+import noticelogo from "../../public/img/bg-notice-board.png"
 export default function Notice() {
   return (
     <div className=" w-auto md:flex border-[1px] border-slate-300 bg-[#FCFCFC] h-auto mb-5">

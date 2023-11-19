@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import TeachersAndStaffimg from '../../../img/teacher-staffs.png'
+import TeachersAndStaffimg from '../../../public/img/teacher-staffs.png'
 export default function TeachersAndStaff() {
   return (
     <div className='bg-[#FCFCFC] shadow-md shadow-slate-400 p-3'>

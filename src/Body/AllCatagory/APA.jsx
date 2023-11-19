@@ -1,4 +1,4 @@
-import apaimg from '../../../img/APA.png'
+import apaimg from '../../../public/img/APA.png'
 
 export default function APA() {
   return (

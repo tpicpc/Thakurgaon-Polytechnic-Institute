@@ -1,6 +1,6 @@
 
-import NasirUddin  from '../../../../img/TeacherAndSTaff/Computer/nasirUddin.jpg'
-import SanjayBanik  from '../../../../img/TeacherAndSTaff/Computer/sonjoy_bonik.jpg'
+import NasirUddin  from '../../../../public/img/TeacherAndSTaff/Computer/nasirUddin.jpg'
+import SanjayBanik  from '../../../../public/img/TeacherAndSTaff/Computer/sonjoy_bonik.jpg'
 export default function RAC() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

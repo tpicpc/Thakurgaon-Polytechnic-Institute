@@ -1,5 +1,5 @@
 
-import ZayedHassan  from '../../../../img/TeacherAndSTaff/Computer/zayed.jpg'
+import ZayedHassan  from '../../../../public/img/TeacherAndSTaff/Computer/zayed.jpg'
 export default function Mechatronics() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

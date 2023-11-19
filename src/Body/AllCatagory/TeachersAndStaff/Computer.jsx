@@ -1,5 +1,5 @@
-import alamgirSir from '../../../../img/TeacherAndSTaff/Computer/alamgirSir.jpg'
-import maminulIslam from '../../../../img/TeacherAndSTaff/Computer/maminulIslam.jpg'
+import alamgirSir from '../../../../public/img/TeacherAndSTaff/Computer/alamgirSir.jpg'
+import maminulIslam from '../../../../public/img/TeacherAndSTaff/Computer/maminulIslam.jpg'
 
 
 export default function Computer() {

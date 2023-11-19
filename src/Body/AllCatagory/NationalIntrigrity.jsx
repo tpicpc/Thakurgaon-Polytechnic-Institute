@@ -1,4 +1,4 @@
-import Integrityimg from '../../../img/Integrity.png'
+import Integrityimg from '../../../public/img/Integrity.png'
 
 export default function NationalIntrigrity() {
   return (

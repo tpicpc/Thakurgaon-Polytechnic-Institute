@@ -1,8 +1,8 @@
-import eduMenester1 from "../../../img/Dipu magi.jpg"
-import eduMenester2 from "../../../img/মাননীয় উপমন্ত্রী.jpg"
-import eduMenester3 from "../../../img/সচিব.jpg"
-import eduMenester4 from "../../../img/maksudur.jpg"
-import eduMenester5 from "../../../img/sonjoy_bonik.jpg"
+import eduMenester1 from "../../../public/img/Dipu moni.jpg"
+import eduMenester2 from "../../../public/img/মাননীয় উপমন্ত্রী.jpg"
+import eduMenester3 from "../../../public/img/সচিব.jpg"
+import eduMenester4 from "../../../public/img/maksudur.jpg"
+import eduMenester5 from "../../../public/img/sonjoy_bonik.jpg"
 
 export default function MejorPerson() {
   return (

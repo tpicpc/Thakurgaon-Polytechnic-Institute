@@ -1,4 +1,4 @@
-import song from '../../../audio/bd_national_anthem.mp3'
+import song from '../../../public/audio/bd_national_anthem.mp3'
 export default function NationalAnthem() {
   return (
     <div className="my-4">

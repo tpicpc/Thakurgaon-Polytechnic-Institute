@@ -1,6 +1,6 @@
 
-import AltafHossain  from '../../../../img/TeacherAndSTaff/Computer/altaf.jpg'
-import Shahajahan  from '../../../../img/TeacherAndSTaff/Computer/shajahan.jpg'
+import AltafHossain  from '../../../../public/img/TeacherAndSTaff/Computer/altaf.jpg'
+import Shahajahan  from '../../../../public/img/TeacherAndSTaff/Computer/shajahan.jpg'
 export default function NonTech() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

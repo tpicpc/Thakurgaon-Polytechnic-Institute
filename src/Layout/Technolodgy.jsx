@@ -1,8 +1,8 @@
-import Computer from '../../img/Technolodgy/Computer.png'
-import architecture from '../../img/Technolodgy/architecture.png'
-import Mechatronics from '../../img/Technolodgy/Mechatronics.png'
-import Food from '../../img/Technolodgy/Food.png'
-import RAC from '../../img/Technolodgy/RAC.png'
+import Computer from '../../public/img/Technolodgy/Computer.png'
+import architecture from '../../public/img/Technolodgy/architecture.png'
+import Mechatronics from '../../public/img/Technolodgy/Mechatronics.png'
+import Food from '../../public/img/Technolodgy/Food.png'
+import RAC from '../../public/img/Technolodgy/RAC.png'
 import { Link } from 'react-router-dom'
 
 export default function Technolodgy() {

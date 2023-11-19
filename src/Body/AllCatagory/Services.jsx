@@ -1,4 +1,4 @@
-import serviceimg from '../../../img/service.png'
+import serviceimg from '../../../public/img/service.png'
 export default function Services() {
   return (
     <div className='bg-[#FCFCFC] shadow-md shadow-slate-400 p-3 h-full'>

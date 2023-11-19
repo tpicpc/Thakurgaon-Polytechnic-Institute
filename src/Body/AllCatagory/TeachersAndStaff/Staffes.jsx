@@ -1,6 +1,6 @@
 
-import NurIslam  from '../../../../img/TeacherAndSTaff/Computer/noorIslam.png'
-import BakiBillah  from '../../../../img/TeacherAndSTaff/Computer/bakiBillah.jpg'
+import NurIslam  from '../../../../public/img/TeacherAndSTaff/Computer/noorIslam.png'
+import BakiBillah  from '../../../../public/img/TeacherAndSTaff/Computer/bakiBillah.jpg'
 export default function Staffes() {
   return (
     <div className='md:grid gap-5 grid-cols-2'>

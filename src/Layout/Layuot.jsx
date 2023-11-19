@@ -1,6 +1,5 @@
 import '../App.css'
 import { Outlet } from "react-router-dom";
-import FooterImg from "../Body/FooterImg";
 import CentralEServices from "../Body/Sidebar/CentralEServices";
 import EmergencyHotline from "../Body/Sidebar/EmergencyHotline";
 import Eservices from "../Body/Sidebar/Eservices";
@@ -18,6 +17,7 @@ import HotNews from "../Header/HotNews";
 import { useState } from "react";
 import DropDowndata from "../Header/DropDowndata";
 import Nav from '../Header/Nav';
+import FooterImg from '../Body/FooterImg';
 
 export default function Layuot ()  {
   const [isOpen,setIsOpen]=useState(false)
