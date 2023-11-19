@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function UpdateNews() {
   return (
-    <div className="h-16 border-[1px] border-slate-300 bg-slate-300 flex items-center px-2 text-base">
+    <div className="h-16 border-[1px] border-slate-300 bg-slate-300 flex items-center px-2 text-[12px] md:text-base">
       <div className="marquee-container overflow-hidden hover:bg-slate-200 w-full h-8 " direction="up">
         <div className="marquee-content flex flex-col">
           <UpdateNewsData news="২য়, ৪র্থ, ৬ষ্ঠ ও ৮ম পর্বের শিক্ষার্থীদের ফরম ফিলাপ নোটিশ (অক্টোবর ২০২৩)"></UpdateNewsData>
