@@ -36,6 +36,7 @@ import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
 import Clubs from './Layout/Clubs.jsx';
 import TPIatAGlance from './Layout/TPIatAGlance.jsx';
 import Dipumoni from './Body/Sidebar/MejorPersonContact/Dipumoni.jsx';
+import HonorableDeputyMinister from './Body/Sidebar/HonorableDeputyMinister.jsx';
 
 const router = createBrowserRouter([
   {
@@ -157,6 +158,10 @@ const router = createBrowserRouter([
       {
         path:"/Dipumoni",
         element: <Dipumoni></Dipumoni>
+      },
+      {
+        path:"/HonorableDeputyMinister",
+        element: <HonorableDeputyMinister></HonorableDeputyMinister>
       },
       
     ]

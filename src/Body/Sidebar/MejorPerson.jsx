@@ -10,7 +10,7 @@ export default function MejorPerson() {
     <div>
       <MejorP rank="মাননীয় মন্ত্রী" names="ডা. দীপু মনি ," title="এম.পি" img={eduMenester1} link="/Dipumoni"></MejorP>
 
-      <MejorP rank="মাননীয় উপমন্ত্রী" names="মহিবুল হাসান চৌধুরী ," title="এম.পি" img={eduMenester2}></MejorP>
+      <MejorP rank="মাননীয় উপমন্ত্রী" names="মহিবুল হাসান চৌধুরী ," title="এম.পি" img={eduMenester2} link="/HonorableDeputyMinister"></MejorP>
 
       <MejorP rank="সচিব" names="মোঃ কামাল হোসেন ," title="এম.পি" img={eduMenester3}></MejorP>
 
