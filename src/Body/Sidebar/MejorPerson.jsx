@@ -14,9 +14,9 @@ export default function MejorPerson() {
 
       <MejorP rank="সচিব" names="মোঃ কামাল হোসেন ," title="এম.পি" img={eduMenester3} link="/TheSecretary"></MejorP>
 
-      <MejorP rank="অধ্যক্ষ" names="ইঞ্জি. মোঃ মাকসুদুর রহমান" img={eduMenester4}></MejorP>
+      <MejorP rank="অধ্যক্ষ" names="ইঞ্জি. মোঃ মাকসুদুর রহমান" img={eduMenester4} link="/ThePrincipal"></MejorP>
 
-      <MejorP rank="তথ্য কর্মকর্তা ও অভিযোগ সমাধান কর্মকর্তা" names="ইঞ্জি. সঞ্জয় বণি"  img={eduMenester5}></MejorP>
+      <MejorP rank="তথ্য কর্মকর্তা ও অভিযোগ সমাধান কর্মকর্তা" names="ইঞ্জি. সঞ্জয় বণি"  img={eduMenester5} link="/Dipumoni"></MejorP>
     </div>
   )
 }
