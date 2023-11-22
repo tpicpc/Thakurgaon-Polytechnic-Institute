@@ -39,6 +39,7 @@ import Dipumoni from './Body/Sidebar/MejorPersonContact/Dipumoni.jsx';
 import HonorableDeputyMinister from './Body/Sidebar/MejorPersonContact/HonorableDeputyMinister.jsx';
 import TheSecretary from './Body/Sidebar/MejorPersonContact/TheSecretary.jsx';
 import ThePrincipal from './Body/Sidebar/MejorPersonContact/ThePrincipal.jsx';
+import InformationOfficer from './Body/Sidebar/MejorPersonContact/InformationOfficer.jsx';
 
 const router = createBrowserRouter([
   {
@@ -172,6 +173,10 @@ const router = createBrowserRouter([
       {
         path:"/ThePrincipal",
         element: <ThePrincipal></ThePrincipal>
+      },
+      {
+        path:"/InformationOfficer",
+        element: <InformationOfficer></InformationOfficer>
       },
       
     ]
