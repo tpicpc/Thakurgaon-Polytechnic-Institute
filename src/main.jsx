@@ -35,6 +35,7 @@ import NonTech from './Body/AllCatagory/TeachersAndStaff/NonTech.jsx';
 import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
 import Clubs from './Layout/Clubs.jsx';
 import TPIatAGlance from './Layout/TPIatAGlance.jsx';
+import Dipumoni from './Body/Sidebar/MejorPersonContact/Dipumoni.jsx';
 
 const router = createBrowserRouter([
   {
@@ -152,6 +153,10 @@ const router = createBrowserRouter([
       {
         path:"/Staffes",
         element: <Staffes></Staffes>
+      },
+      {
+        path:"/Dipumoni",
+        element: <Dipumoni></Dipumoni>
       },
       
     ]
