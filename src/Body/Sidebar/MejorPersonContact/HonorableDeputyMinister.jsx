@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import eduMenester2 from "../../../public/img/মাননীয় উপমন্ত্রী.jpg"
+import eduMenester2 from "../../../../public/img/মাননীয় উপমন্ত্রী.jpg"
 
 
 export default function HonorableDeputyMinister() {

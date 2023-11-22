@@ -36,7 +36,8 @@ import Staffes from './Body/AllCatagory/TeachersAndStaff/Staffes.jsx';
 import Clubs from './Layout/Clubs.jsx';
 import TPIatAGlance from './Layout/TPIatAGlance.jsx';
 import Dipumoni from './Body/Sidebar/MejorPersonContact/Dipumoni.jsx';
-import HonorableDeputyMinister from './Body/Sidebar/HonorableDeputyMinister.jsx';
+import HonorableDeputyMinister from './Body/Sidebar/MejorPersonContact/HonorableDeputyMinister.jsx';
+import TheSecretary from './Body/Sidebar/MejorPersonContact/TheSecretary.jsx';
 
 const router = createBrowserRouter([
   {
@@ -162,6 +163,10 @@ const router = createBrowserRouter([
       {
         path:"/HonorableDeputyMinister",
         element: <HonorableDeputyMinister></HonorableDeputyMinister>
+      },
+      {
+        path:"/TheSecretary",
+        element: <TheSecretary></TheSecretary>
       },
       
     ]
