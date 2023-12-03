@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 
 function ContactPage() {
   return (
@@ -10,11 +9,12 @@ function ContactPage() {
 }
 
 export default ContactPage;
+
 import img from "../../public/img/1.jpg";
 import { Link } from "react-router-dom";
 function HeroSection() {
   return (
-    <section className="text-gray-600 body-font border-[1px] border-slate-300 rounded-lg shadow-md shadow-[#1D8219] mb-5">
+    <section className="text-gray-600 body-font border-[1px] border-slate-300 rounded-lg shadow-md shadow-slate-400 mb-5">
       <div className="container mx-auto w-full flex p-5 md:flex-row flex-col items-center">
         <div className="w-56 h-full">
           <img
@@ -58,7 +58,7 @@ function HeroSection() {
 
 const Contact = () => {
   return (
-    <section className="text-gray-600 body-font relative mx-auto shadow-md shadow-slate-400 rounded-lg">
+    <section className="text-gray-600 body-font relative mx-auto shadow-md shadow-slate-400 rounded-lg mb-5">
       <div className="container p-4 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden md:mr-3 p-10 flex items-end justify-start relative">
           <iframe
@@ -75,7 +75,8 @@ const Contact = () => {
                 ADDRESS
               </h2>
               <p className="mt-1 text-sm font-semibold text-justify">
-                Gobindo Nagar, Thakurgaon, Rongpur
+              Gobindra Nogor, Thakurgaon Road ,
+              <br /> Thakurgaon
               </p>
             </div>
           </div>
