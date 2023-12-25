@@ -5,7 +5,7 @@ export default function ClassRoutine() {
 
   return (
     <div>
-    <table className="border-collapse border border-slate-400 text-[13px] w-full">
+    <table className="border-collapse border border-slate-400 text-[13px] w-full mb-5">
         <tr>
             <th className={`${style}`}>প্রকাশের তারিখ</th>
             <th className={`${style}`}>শিরোনাম</th>

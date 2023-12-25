@@ -10,7 +10,7 @@ export default function DropDowndata({isOpen,setIsOpen}) {
         <details>
         <summary className="text-red-500  w-full h-full">TPI সম্পর্কে</summary>
           <ul className=" pt-3">
-            <li className="border-y-[1px] border-slate-300 flex items-center py-3"><Link to={"/Introduction"}  onClick={()=> setIsOpen(!isOpen)} className="text-red-500 w-full h-full px-3">পরিচিতি</Link></li>
+            <li className="border-y-[1px] border-slate-300 flex items-center py-3"><Link to={"/History"}  onClick={()=> setIsOpen(!isOpen)} className="text-red-500 w-full h-full px-3">পরিচিতি</Link></li>
 
             <li className="border-y-[1px] border-slate-300 flex items-center py-3"><Link onClick={()=> setIsOpen(!isOpen)} to={"/TPIatAGlance"} className="text-red-500 w-full h-full px-3">এক নজরে TPI</Link></li>
 

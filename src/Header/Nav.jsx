@@ -12,7 +12,7 @@ export default function Nav({setIsOpen,isOpen}) {
                 <div className="flex">
                     <li className="dropdown dropdown-hover"><Link tabIndex={0} className="text-red-500 py-[11px] w-full h-full px-3 hover:bg-red-500 hover:text-white">TPI সম্পর্কে ▾</Link>
                         <ul tabIndex={0} className="dropdown-content text-black w-56 hover:  z-[1] mt-3 menu p-2 shadow bg-base-100">
-                            <li><Link to={"/Introduction"} className="hover:text-red-500">পরিচিতি ও ইতিহাস</Link></li>
+                            <li><Link to={"/History"} className="hover:text-red-500">পরিচিতি ও ইতিহাস</Link></li>
 
                             <li><Link to={"/TPIatAGlance"} className="hover:text-red-500">এক নজরে TPI </Link></li>
 

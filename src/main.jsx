@@ -21,10 +21,10 @@ import Technolodgy from './Layout/Technolodgy.jsx';
 import ClassRoutine from './Body/AllCatagory/AcademicInformation/ClassRoutine.jsx';
 import ExamRoutine from './Body/AllCatagory/AcademicInformation/ExamRoutine.jsx';
 import DigitalClassContent from './Body/AllCatagory/AcademicInformation/DigitalClassContent.jsx';
-import SemesterPlan from './Body/AllCatagory/SemesterPlan.jsx';
-import Syllabus from './Body/AllCatagory/Syllabus.jsx';
+import SemesterPlan from './Body/AllCatagory/AcademicInformation/SemesterPlan.jsx';
+import Syllabus from './Body/AllCatagory/AcademicInformation/Syllabus.jsx';
 import StudentRepresentativeCouncil from './Body/AllCatagory/StudentCorner/StudentRepresentativeCouncil.jsx';
-import StudentSuccessStories from './Body/AllCatagory/StudentSuccessStories.jsx';
+import StudentSuccessStories from './Body/AllCatagory/StudentCorner/StudentSuccessStories.jsx';
 import AllTeachersAndStaff from './Body/AllCatagory/TeachersAndStaff/AllTeachersAndStaff.jsx';
 import Computer from './Body/AllCatagory/TeachersAndStaff/Computer.jsx';
 import Food from './Body/AllCatagory/TeachersAndStaff/Food.jsx';
@@ -40,6 +40,8 @@ import HonorableDeputyMinister from './Body/Sidebar/MejorPersonContact/Honorable
 import TheSecretary from './Body/Sidebar/MejorPersonContact/TheSecretary.jsx';
 import ThePrincipal from './Body/Sidebar/MejorPersonContact/ThePrincipal.jsx';
 import InformationOfficer from './Body/Sidebar/MejorPersonContact/InformationOfficer.jsx';
+import History from './Body/History.jsx';
+import UnderConstraction from './Body/AllCatagory/UnderConstraction.jsx';
 
 const router = createBrowserRouter([
   {
@@ -51,8 +53,8 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path:"/Introduction",
-        element: <Introduction></Introduction>
+        path:"/History",
+        element: <History></History>
       },
       {
         path:"/OurVision",
@@ -125,6 +127,10 @@ const router = createBrowserRouter([
       {
         path:"/StudentSuccessStories",
         element: <StudentSuccessStories></StudentSuccessStories>
+      },
+      {
+        path:"/UnderConstraction",
+        element: <UnderConstraction></UnderConstraction>
       },
       {
         path:"/AllTeachersAndStaff",

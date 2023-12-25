@@ -6,6 +6,7 @@ import RAC from '../../public/img/Technolodgy/RAC.png'
 import { Link } from 'react-router-dom'
 
 export default function Technolodgy() {
+    
   return (
     <div>
         <TechnolodgyData 
@@ -63,6 +64,9 @@ export default function Technolodgy() {
 }
 function TechnolodgyData({name,img,TotalSeat,First,Second,link}){
     const style='border border-slate-300 p-1 text-center font-semibold text-[12px]'
+    const handleLinkClick = () => {
+        window.scrollTo({ top: 450, behavior: "smooth" });
+      };
 
     return(
     <div className="md:flex items-center justify-center bg-base-100 rounded-md shadow-xl border-[1px] border-slate-200 mb-5">
@@ -87,7 +91,7 @@ function TechnolodgyData({name,img,TotalSeat,First,Second,link}){
 
             </table>
             <div className="card-actions justify-end">
-                <Link className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={`${link}`}>Teachers</Link>
+                <Link  onClick={handleLinkClick} className="py-2 w-full text-center bg-green-600 text-white hover:bg-green-700 rounded-md font-semibold" to={`${link}`}>Teachers</Link>
             </div>
         </div>
     </div>

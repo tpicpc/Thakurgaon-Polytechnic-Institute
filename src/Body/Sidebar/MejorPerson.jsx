@@ -24,7 +24,7 @@ function MejorP({rank,names,title,img,link}){
   return(
     <div className="w-full">
       <h2 className="bg-gradient-to-r from-[#1B8119] to-[#46A20D] mb-5 py-2 text-white border-l-[4px] border-red-600 pl-3">{rank}</h2>
-      <img className="w-full flex border-2 border-black" src={img} alt="img" />
+      <img className="w-full flex border-[1px] border-slate-300" src={img} alt="img" />
       <h2 className="text-center text-xl font-semibold py-3">{names}  <span className="text-sm font-semibold">{title}</span></h2>
       <Link to={link} className="block w-full mb-2 text-center rounded-sm py-2 bg-green-600 text-white hover:bg-green-700">যোগাযোগ</Link>
     </div>

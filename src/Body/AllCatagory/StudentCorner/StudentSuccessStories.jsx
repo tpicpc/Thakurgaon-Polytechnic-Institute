@@ -1,4 +1,4 @@
-import person from "../../../public/img/icons8-person-100.png";
+import person from "../../../../public/img/icons8-person-100.png";
 
 export default function StudentSuccessStories() {
 
@@ -28,6 +28,7 @@ function Card(){
         <div className=" flex flex-col gap-1 mb-3 md:mb-0">
           <h2 className="bg-gradient-to-r from-[#1B8119] to-[#46A20D] py-1 text-white border-l-[4px] border-red-600 pl-3">designation</h2>
           <p>position : junior frontend developer</p>
+          <p>company : Univease IT Institute</p>
           <p>Mobail : 01737705511</p>
           <p>email : mujahidislam400301@gmail.com</p>
         </div>

@@ -6,7 +6,7 @@ export default function ExamRoutine() {
 
     return (
       <div>
-          <table className="border-collapse border border-slate-400 text-[13px]">
+          <table className="border-collapse border border-slate-400 text-[13px] mb-5">
               <tr>
                   <th className={`${style}`}>প্রকাশের তারিখ</th>
                   <th className={`${style}`}>শিরোনাম</th>
