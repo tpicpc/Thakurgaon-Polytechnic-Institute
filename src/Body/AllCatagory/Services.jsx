@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import serviceimg from "../../../public/img/Service.png";
+import serviceimg from "./../../public/img/Service.png";
 export default function Services() {
   const handleLinkClick = () => {
     window.scrollTo({ top: 450, behavior: "smooth" });
